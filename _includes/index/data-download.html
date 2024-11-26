@@ -1,0 +1,15 @@
+{%- assign stubs = site.data.config-nav | map: 'stub' | join: ';' -%}
+<div class="card mb-3">
+    <div class="card-body">
+        <div class="d-flex align-items-center justify-content-center flex-wrap">
+            <p class="mb-0 me-5">
+                Reuse collection data <small>(click to download)</small> 
+            </p>
+            <a class="btn btn-sm btn-secondary me-2" href="{{ '/assets/data/metadata.csv' | relative_url }}" target="_blank">Metadata CSV</a>
+            <a class="btn btn-sm btn-secondary me-2" href="{{ '/assets/data/metadata.json' | relative_url }}" target="_blank">Metadata JSON</a>
+            {% if stubs contains "map" %}
+            <a class="btn btn-sm btn-secondary me-2" href="{{ '/assets/data/geodata.json' | relative_url }}" target="_blank">Geodata JSON</a>
+            {% endif %}
+        </div>
+    </div>
+</div>

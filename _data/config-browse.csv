@@ -1,0 +1,9 @@
+field,display_name,btn,hidden,sort_name
+region,Region,true,,Region
+location,Location,true,,Location
+subsection,Subsection,true,,Subsection
+creator,Credits,true,,
+identifier,,,true,
+caption,Caption,true,true,Caption
+display_template,,false,true,
+image_alt_text,,false,true,

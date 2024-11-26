@@ -1,0 +1,20 @@
+field,display_name,browse_link,external_link,dc_map,schema_map
+title,Title,,,DCTERMS.title,headline
+creator,Creator,,,DCTERMS.creator,creator
+description,Description,,,DCTERMS.description,description
+date,Date Created,,,DCTERMS.date,dateCreated
+date_construction,Date of Construction,,,DCTERMS.date_construction,dateConstruction
+date_destruction,Date of Destruction,,,DCTERMS.date_destruction,dateDestruction
+subsection,Subsection,true,,DCTERMS.subsection,keywords
+location,Location,,,,contentLocation
+source,Source,,,,
+date-is-approximate?,Date is Approximate,,,,dateIsApproximate
+caption,Caption,,,DCTERMS.caption,caption
+notes,Notes,,,DCTERMS.notes,notes
+region,Region,,,,
+image_alt_text,Image Alt Text,,,,
+format,Format,,,DCTERMS.format,format
+language,Language,,,DCTERMS.language,language
+rights,Rights,,,DCTERMS.rights,license
+latitude,Latitude,,,,
+longitude,Longitude,,,,

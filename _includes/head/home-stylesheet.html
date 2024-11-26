@@ -1,0 +1,73 @@
+<style>
+    #everything {
+        background-image: url('{{ "/objects/vynnitsya_semen_shyrochyn.jpg" | relative_url}}');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #essay-banner {
+    background-image: url('{{ "assets/img/banner-img-cropped.JPG" | relative_url}}');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 300px; /* Adjust the height as needed */
+    position: relative;
+    }
+
+    #essay-banner .container,
+    #essay-banner .row {
+        height: 100%;
+    }
+
+    #essay-banner .row.align-items-center {
+        display: flex;
+        align-items: center;
+    }
+
+    #essay-banner #title {
+        padding-top: 2em;
+        padding-bottom: 0;
+    }
+
+    #home-banner {        
+        height: 400px;
+        position: relative;
+    }
+    #title-box {
+        margin-top: 15em; 
+        /* margin-left: 1em;
+        margin-right: 1em;
+        position: absolute;
+        left: 0.0005em;
+        bottom: 0.0005em; */
+    }
+    #toc-box {
+        position: absolute;
+        right: 1em;
+        bottom: .15em;
+    }
+    @media screen and (max-width: 900px) {
+        #home-banner {        
+            height: 500px;
+        }
+        #title-box {
+            margin-top: 2em;
+        }
+    }
+
+    @media screen and (max-width: 576px) {
+        #home-banner {        
+            height: 500px;
+        }
+        #title-box {
+            margin-top: 2em;
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
+    /* .nav-buttons:hover {
+        color: white;
+        background: rgba(200,16,46,.10) !important;
+    } */
+</style>
