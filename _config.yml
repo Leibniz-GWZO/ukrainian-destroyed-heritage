@@ -8,7 +8,7 @@
 # URL VARIABLES
 #
 # site domain, full URL to the production location of your collection
-url: 'ukrainian-destroyed-heritage.leibniz-gwzo.de'
+url: 'https://ukrainian-destroyed-heritage.leibniz-gwzo.de'
 # path to location on the domain if necessary e.g. /digital/hjccc
 baseurl: '/collectionbuilder_Destroyed-Ukranian-Heritage'
 # location of code, the full url to your github repository
