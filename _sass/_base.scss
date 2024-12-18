@@ -3,11 +3,13 @@
     these values are configurable using theme.yml > Theme Fonts area 
     or by editing base variables in cb.scss
 */
+
 body {
     @if $base-font-family != "" { font-family: $base-font-family; }
     @if $base-font-size != "" { font-size: $base-font-size; }
     @if $text-color != "" { color: $text-color; }
 }
+
 a {
     /* remove link underline */ 
     text-decoration: none;
@@ -21,31 +23,32 @@ a {
 
 /* skip nav for accessibility, based on https://webaim.org/techniques/skipnav/ */
 #skip-to-content a {
-	padding:6px;
+	padding: 6px;
 	position: absolute;
-	top:-100px;
-	left:0px;
-	color:white;
-	border-right:1px solid white;
-	border-bottom:1px solid white;
-	border-bottom-right-radius:8px;
-	background:#BF1722;
+	top: -100px;
+	left: 0px;
+	color: white;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	border-bottom-right-radius: 8px;
+	background: #BF1722;
 	-webkit-transition: top 1s ease-out;
     transition: top 1s ease-out;
     z-index: 100;
 }
+
 #skip-to-content a:focus {
-	position:absolute;
-	left:0px;
-	top:0px;
-	outline-color:transparent;	
-	-webkit-transition: top .1s ease-in;
-    transition: top .1s ease-in;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	outline-color: transparent;	
+	-webkit-transition: top 0.1s ease-in;
+    transition: top 0.1s ease-in;
 }
 
 /* banner */
 #home-banner-logo { 
-    height: 80px; 
+    height: 80px;
 }
 
 /* nav bar */
@@ -55,21 +58,24 @@ a {
 
 /* footer */
 #footer-logo {
-    height: 50px;
+    height: 80px;
+    margin-right: 1.8rem;
 }
+
 #footer-credits {
     img { height: 20px; }
+    margin-right: 1.8rem;
 }
 
 #footer-nav .nav-link.active, #footer-nav .show > .nav-link {
     color: #fff;
     border: solid white 1px;
     background: transparent;
-  }
+}
 
-  #footer-nav .nav-link:hover {
+#footer-nav .nav-link:hover {
     color: white;
-    background: rgba(255,255,255,.10);
+    background: rgba(255, 255, 255, 0.1);
 }
 
 /* scroll to top */
@@ -84,24 +90,25 @@ a {
 
 /* feature include tweaks */
 .feature-alert p:last-of-type { margin-bottom: 0; }
+
 @media (min-width: 768px) {
     .feature-w-25 {
-        width: 25%!important;
+        width: 25% !important;
     }
     .feature-w-50 {
-        width: 50%!important;
+        width: 50% !important;
     }
     .feature-w-75 {
-        width: 75%!important;
+        width: 75% !important;
     }
     .feature-w-100 {
-        width: 100%!important;
+        width: 100% !important;
     }
     .feature-float-end {
-        float: right!important;
+        float: right !important;
     }
     .feature-float-start {
-        float: left!important;
+        float: left !important;
     } 
 }
 
@@ -112,8 +119,38 @@ a {
     vertical-align: text-bottom; 
     overflow: hidden;
 }
+
 .icon-sprite {
     width: 1em;
     height: 1em;
     vertical-align: -0.1em;
+}
+
+/* Apply Leipzigzwo font-family globally for the TimelineJS container */
+.tl-timeline {
+    font-family: 'Leipzigzwo', Helvetica, Arial, sans-serif !important;
+}
+
+/* Override specific elements within TimelineJS */
+.tl-timeline h1,
+.tl-timeline h2,
+.tl-timeline h3,
+.tl-timeline h4,
+.tl-timeline h5,
+.tl-timeline h6,
+.tl-timeline p,
+.tl-timeline ul,
+.tl-timeline blockquote,
+.tl-timeline .tl-media h4,
+.tl-timeline .tl-caption,
+.tl-timeline .tl-credit,
+.tl-timeline .tl-slidenav-next,
+.tl-timeline .tl-slidenav-previous,
+.tl-timeline .tl-message,
+.tl-timeline .tl-timegroup-message,
+.tl-timeline .tl-headline-date,
+.tl-timeline .tl-timenav-slider,
+.tl-timeline .tl-timenav-slider h2.tl-headline,
+.tl-timeline .tl-timenav-slider .tl-timeaxis {
+    font-family: 'Leipzigzwo', Helvetica, Arial, sans-serif !important;
 }

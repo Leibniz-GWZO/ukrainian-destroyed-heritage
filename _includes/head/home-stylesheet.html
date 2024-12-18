@@ -7,17 +7,30 @@
     }
 
     #essay-banner {
-    background-image: url('{{ "assets/img/banner-img-cropped.JPG" | relative_url}}');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-    height: 300px; /* Adjust the height as needed */
-    position: relative;
+    position: relative; /* Ensures the pseudo-element is positioned relative to the container */
+    min-height: 115px; /* Ensures minimum height */
+    background-color: transparent; /* Fallback color */
     }
 
-    #essay-banner .container,
-    #essay-banner .row {
-        height: 100%;
+    #essay-banner::before {
+    content: ''; /* Creates an empty element */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('{{ "assets/img/banner-img-cropped.JPG" | relative_url }}');
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-repeat: no-repeat;
+    background-position: top; /* Aligns the image to the top */
+    opacity: 0.3; /* Sets opacity for the background */
+    z-index: 0; /* Places it behind the content */
+    }
+
+    #essay-banner .container {
+        position: relative;
+        z-index: 2; /* Ensures the content is above the pseudo-element */
+        
     }
 
     #essay-banner .row.align-items-center {
@@ -28,6 +41,8 @@
     #essay-banner #title {
         padding-top: 2em;
         padding-bottom: 0;
+        z-index: 3;
+        color: #0000ff;
     }
 
     #home-banner {        

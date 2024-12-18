@@ -1,20 +1,20 @@
 {% if page.layout == "home-infographic" and site.data.theme.featured-image %}
 <style>
-#home-banner {
-    background-image: url('{{ site.data.featured_item.src | relative_url }}');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: {{ site.data.theme.home-banner-image-position | default: 'center' }};
-}
-#home-title-box {
-    padding-top: {{ site.data.theme.home-title-y-padding | default: '5em' }};
-    padding-bottom: {{ site.data.theme.home-title-y-padding | default: '5em' }};
-}
-@media screen and (max-width: 576px) {
-    #home-title-box {
-        max-height: 500px;
+    #home-banner {
+        background-image: url('{{ site.data.featured_item.src | relative_url }}');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: {{ site.data.theme.home-banner-image-position | default: 'center' }};
     }
-}
+    #home-title-box {
+        padding-top: {{ site.data.theme.home-title-y-padding | default: '5em' }};
+        padding-bottom: {{ site.data.theme.home-title-y-padding | default: '5em' }};
+    }
+    @media screen and (max-width: 576px) {
+        #home-title-box {
+            max-height: 500px;
+        }
+    }
 </style>
 <div id="home-banner" class="container-fluid mb-0 p-0">
     <div id="home-title-box" class="position-relative" >
@@ -36,7 +36,14 @@
 <div id="home-banner" class="container-fluid mt-3 mb-5">
         <div id="title-box" class="col-md-5 py-md-3 text-white text-center site-title">
           <h1 class="display-2 p-0 m-0"><span class="title-underline">Destroyed Ukrainian Heritage</span></h1>
-          <p class="mb-0 mt-1 site-subtitle">Ukraine's Built Heritage since February 24, 2022. A Record of Destruction.</p>
+          <h5 class="mb-0 mt-1 site-subtitle">Ukraine's Built Heritage since February 24, 2022. A Record of Destruction.</h5>
+        </div>
+        <div class="col-md-2 d-flex justify-content-center" style="margin-top: 180px;">
+            <a href="#Introduction" class="btn btn-dark btn-sm bg-opacity-75 rounded" >Introduction
+                <svg class="bi icon-sprite" role="img" aria-label="Jump to Exhibit Introduction">
+                    <use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#arrow-down"/>
+                </svg>
+            </a>
         </div>
         <div class="toc-test">
           <a id="toc-box" class="py-3 px-5 display-6 fs-3 text-white bg-dark bg-opacity-75 rounded" href="{{ '/browse.html' | relative_url }}"><strong>Enter the virtual exhibition &raquo;</strong></a>
@@ -49,13 +56,16 @@
     <div class="container h-100">
         <div class="row align-items-center h-100">
             <div id="title" class="{% if site.organization-logo-banner %}col-md-9{% else %}col-12{% endif %}">
-                <h1><a class="text-white font-weight-normal site-title" href="{{ '/' | relative_url }}" >{{ site.title }}</a></h1>	 
-                <!--{% if site.tagline %}<p class="text-white">{{ site.tagline }}</p>{% endif %}-->
+                <h1>
+                    <a class="essay-banner-title" href="{{ '/' | relative_url }}" style="color: #000fff">
+                        {{ site.title }}
+                    </a>
+                </h1>	 
             </div>
             {% if site.organization-logo-banner %}
             <div class="col-md-3 d-none d-lg-block text-end">
-                <a class="btn btn-outline-light" href="{{ site.organization-link }}" target="_blank" rel="noopener"> <!--</a> style="background-color: white;"> -->
-                    <img class="img-fluid" src="{{ site.organization-logo-banner | relative_url }}" title="{{ site.organization-name }}" alt="{{ site.organization-name | escape }} home" >
+                <a class="btn " href="{{ site.organization-link }}" target="_blank" rel="noopener">
+                    <img class="img-fluid" src="{{ site.organization-logo-banner | relative_url }}" title="{{ site.organization-name }}" alt="{{ site.organization-name | escape }} home"  style="max-width: 200px; height: auto;">
                 </a>
             </div>
             {% endif %}

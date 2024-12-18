@@ -8,11 +8,11 @@
 # URL VARIABLES
 #
 # site domain, full URL to the production location of your collection
-url: 'ukrainian-destroyed-heritage.leibniz-gwzo.de'
+url: 'https://jsektkuehler.github.io'
 # path to location on the domain if necessary e.g. /digital/hjccc
 baseurl: '/collectionbuilder_Destroyed-Ukranian-Heritage'
 # location of code, the full url to your github repository
-source-code: https://github.com/Leibniz-GWZO/ukrainian-destroyed-heritage
+source-code: https://github.com/jsektkuehler/collectionbuilder_Destroyed-Ukranian-Heritage
 
 ##########
 # SITE SETTINGS
@@ -28,6 +28,10 @@ description: "Since the beginning of the full scale Russian invasion to Ukraine 
 keywords: ukraine;history;built;heritage;destruction;war;invasion;2022
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: GWZO
+
+# language of the site, used in meta tags and GUI elements
+lang: en
+
 
 ##########
 # COLLECTION SETTINGS

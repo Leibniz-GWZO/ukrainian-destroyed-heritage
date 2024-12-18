@@ -45,36 +45,44 @@ function makeCard(obj) {
         card += '<a href="' + itemHref + '"> <img class="card-img-top lazyload" src="' + placeholder + '" data-src="' + imgSrc + '" alt="' + imgAlt + '"></a>';
     }
     // title
-    card += '<div class="card-body text-center"> <h3 class="card-title h4"><a href="' + itemHref + '" class="text-dark">' + obj.title + '</a></h3>';
+    card += '<div class="card-body text-start"> <a class="text-dark fw-light text-start ">' + obj.location + '</a><h3 class="card-title h4"><a href="' + itemHref + '" class="text-dark fw-bold text-start ">' + obj.title + '</a></h3>';
     // icon thumb for item without image
     if(thumbIcon){
         card += '<p><a href="' + itemHref + '">' + thumbIcon + '</a></p>';
     }
     // other fields
-    card += '<p class="card-text">';
+    card += '<p class="card-text fs-6 text-start">';
     {% for f in fields %}{% unless f.hidden == 'true' %}
-    if(obj[{{ f.field | jsonify }}]){
-    {% if f.display_name %}card += '<strong>{{ f.display_name }}:</strong> ';{% endif %}
-    {% if f.btn == 'true' %}
-    var btns = obj[{{ f.field | jsonify }}].split(";");
-    for (var i = 0, len = btns.length; i < len; i++) {
-        if(btns[i] != "") {
-        card += '<a class="btn btn-sm btn-secondary m-1 text-wrap" href="{{ page.url | relative_url }}#' + encodeURIComponent(btns[i].trim()) + '">' + btns[i].trim() + '</a>';
+    if (obj[{{ f.field | jsonify }}]) {
+        card += '<div class="d-flex align-items-center mb-1">';
+        // Left-aligned field name with fixed width
+        {% if f.display_name %}
+        card += '<span class="flex-shrink-0" style="min-width: 100px; font-size: 0.8em">{{ f.display_name }}:</span>';
+        {% endif %}
+
+        // Display button or value
+        {% if f.btn == 'true' %}
+        var btns = obj[{{ f.field | jsonify }}].split(";");
+        for (var i = 0, len = btns.length; i < len; i++) {
+            if (btns[i] != "") {
+                card += '<a class="btn btn-sm btn-outline-dark text-wrap" href="{{ page.url | relative_url }}#' + encodeURIComponent(btns[i].trim()) + '">' + btns[i].trim() + '</a>';
+            }
         }
-    }
-    {% else %}
-    card += obj[{{ f.field | jsonify }}];
-    {% endif %}
-    {% unless forloop.last %}card += '<br>';{% endunless %}
+        {% else %}
+        card += '<span>' + obj[{{ f.field | jsonify }}] + '</span>';
+        {% endif %}
+        card += '</div>';
     }
     {% endunless %}{% endfor %}
     card += '</p>';
+
     // media type
-    if(obj.template && obj.template != "") {
-        mediaIcon = getIcon(obj.template,obj.format,"hidden");
-        card += '<p class="card-text"><small><a class="btn btn-sm btn-outline-secondary" href="{{ page.url | relative_url }}#' + encodeURIComponent(obj.template) + '">' + 
-        obj.template.toUpperCase() + ' ' + mediaIcon + '</a></small></p>';
-    }
+    //if(obj.template && obj.template != "") {
+    //    mediaIcon = getIcon(obj.template,obj.format,"hidden");
+    //    card += '<p class="card-text"><small><a class="btn btn-sm btn-outline-secondary" href="{{ page.url | relative_url }}#' + encodeURIComponent(obj.template) + '">' + 
+    //    obj.template.toUpperCase() + ' ' + mediaIcon + '</a></small></p>';
+    //}
+    
     // view button
     card += '<hr><a href="' + itemHref + '" class="btn btn-sm btn-light" title="link to ' + obj.title + '">View Full Record</a>';
     // close divs

@@ -1,8 +1,9 @@
 ---
-title: Data Protection Declaration
-layout: default
+#title: Data Protection Declaration
+layout: page
 permalink: /privacy.html
 ---
+
 # Data Protection Declaration
 
 ## 1. Information on personal data collection and the responsible party’s contact details
