@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Leipzigzwo";
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src:  url('../fonts/LeipzigzwoWeb-Regular.eot?#iefix') format('embedded-opentype'),
+          url("../fonts/LeipzigzwoWeb-Regular.woff") format('woff'),
+          url("../fonts/LeipzigzwoWeb-Regular.woff2") format('woff2'),
+          url("../fonts/LeipzigzwoWeb-Regular.ttf") format('truetype');
+  }
+  @font-face {
+    font-family: "Leipzigzwo";
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src:  url('../fonts/LeipzigzwoWeb-Bold.eot?#iefix') format('embedded-opentype'),
+          url("../fonts/LeipzigzwoWeb-Bold.woff") format('woff'),
+          url("../fonts/LeipzigzwoWeb-Bold.woff2") format('woff2'),
+          url("../fonts/LeipzigzwoWeb-Bold.ttf") format('truetype');
+  }
+  @font-face {
+    font-family: "Leipzigzwo";
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+    src:  url('../fonts/LeipzigzwoWeb-RegularItalic.eot?#iefix') format('embedded-opentype'),
+          url("../fonts/LeipzigzwoWeb-RegularItalic.woff") format('woff'),
+          url("../fonts/LeipzigzwoWeb-RegularItalic.woff2") format('woff2'),
+          url("../fonts/LeipzigzwoWeb-RegularItalic.ttf") format('truetype');
+  }
+  @font-face {
+    font-family: "Leipzigzwo";
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+    src:  url('../fonts/LeipzigzwoWeb-BoldItalic.eot?#iefix') format('embedded-opentype'),
+          url("../fonts/LeipzigzwoWeb-BoldItalic.woff") format('woff'),
+          url("../fonts/LeipzigzwoWeb-BoldItalic.woff2") format('woff2'),
+          url("../fonts/LeipzigzwoWeb-BoldItalic.ttf") format('truetype');
+  }

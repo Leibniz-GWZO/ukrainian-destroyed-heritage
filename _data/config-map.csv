@@ -1,0 +1,7 @@
+field,display_name,search
+date,Date,true
+date_construction,Date of Construction,true
+date_destruction,Date of Destruction,true
+architect,Architect,true
+subsection,Subsection,true
+location,Location,true

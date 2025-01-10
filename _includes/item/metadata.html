@@ -1,0 +1,87 @@
+{% comment %}
+
+    Adds metadata to item pages in a description list element.
+    Fields are configured via _data/config-metadata.csv 
+    
+{%- endcomment -%}
+
+<style>
+    /* Container for the metadata section */
+    .metadata-container {
+        padding: 20px;
+        background-color: #f9f9f9; /* Light background for readability */
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        max-width: 800px;
+        margin: 20px auto;
+    }
+
+    /* Modern list styling */
+    .metadata-list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px; /* Space between items */
+    }
+
+    /* Metadata items */
+    .metadata-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        border-bottom: 1px solid #eee; /* Separator for items */
+        padding-bottom: 8px;
+        margin-bottom: 8px;
+    }
+
+    /* Field names */
+    .metadata-item .field {
+        color: #555; /* Subtle text color */
+        flex: 1 1 30%; /* Allocate space for labels */
+        text-transform: capitalize;
+        font-weight: lighter;
+    }
+
+    /* Field values */
+    .metadata-item .field-value {
+        flex: 2 1 70%; /* Allocate space for values */
+        color: #333; /* Darker text for emphasis */
+        font-size: 1.1em;
+        line-height: 1.5;
+    }
+
+    .metadata-item .field-value a:hover {
+        text-decoration: underline;
+    }
+
+    /* Optional: Responsive adjustments */
+    @media (max-width: 600px) {
+        .metadata-item {
+            flex-direction: column;
+            gap: 5px;
+        }
+    }
+
+</style>
+
+
+{%- assign fields = site.data.config-metadata | where_exp: 'item', 'item.display_name != nil' -%}
+<div id="item-metadata" class="metadata-container">
+    <dl class="metadata-list">
+        {% for f in fields %}{% if page[f.field] %}
+        <div class="metadata-item">
+            <dt class="field">{{ f.display_name }}</dt>
+            <dd class="field-value">
+                {% if f.browse_link == "true" %}
+                {% assign topics = page[f.field] | split: ";" %}
+                {% for t in topics %}
+                <a class="me-3" href="{{ t | strip | url_param_escape | prepend: '/browse.html#' | relative_url }}">{{ t | strip }}</a>
+                {% endfor %}
+                {% elsif f.external_link == "true" %}
+                <a href="{{ page[f.field] }}" target="_blank" rel="noopener">{{ page[f.field] }}</a>
+                {% else %}
+                {{ page[f.field] | replace: '""','"' }}{% endif %}
+            </dd>
+        </div>
+        {% endif %}{% endfor %}
+    </dl>
+</div>

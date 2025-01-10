@@ -1,0 +1,26 @@
+field,display_name,browse_link,external_link,dc_map,schema_map
+objectid,,,,,
+parentid,D,,,,
+title,Title,,,DCTERMS.title,headline
+architect,Architect,,,DCTERMS.creator,creator
+description,Description,,,DCTERMS.description,description
+credits_before,,,,DCTERMS.rightsHolder,rightsHolder
+credits_after,,,,DCTERMS.rightsHolder,rightsHolder
+caption_before,,,,DCTERMS.caption,captionBefore
+caption_after,,,,DCTERMS.caption,captionAfter
+date_construction,Date of Construction,,,DCTERMS.created,dateCreated
+date_destruction,Date of Destruction,,,DCTERMS.date,dateDestruction
+subsection,Subsection,true,,DCTERMS.subject,keywords
+location,Location,,,DCTERMS.spatial,contentLocation
+region,Region,,,,region
+image_alt_text,,,,,imageAltText
+format,,,,DCTERMS.format,format
+language,,,,DCTERMS.language,language
+identifier,,,,DCTERMS.identifier,identifier
+type,,,,DCTERMS.type,type
+rightsstatement,,,,DCTERMS.rights,rightsStatement
+display_template,,,,,displayTemplate
+object_location,,,,,objectLocation
+image_small,,,,,imageSmall
+image_thumb,,,,,imageThumbnail
+object_transcript,,,,,objectTranscript
