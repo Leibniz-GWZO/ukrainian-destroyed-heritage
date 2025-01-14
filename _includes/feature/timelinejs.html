@@ -12,6 +12,13 @@
     - "json" = (optional) path or link to timelinejs json file. 
 
 {% endcomment %}
+<style>
+    /* Adjust the height of the .tl-storyslider to 550px */
+    .tl-storyslider {
+      height: 550px !important;
+    }
+</style>
+
 {%- assign json = include.json | default: '/assets/data/timelinejs.json' | relative_url -%}
 <!-- timelinejs, https://timeline.knightlab.com/ -->
 <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
