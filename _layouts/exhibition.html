@@ -1,13 +1,13 @@
 ---
-# collection "Browse" page
+# collection "Exhibition" page
 layout: page
 custom-foot: js/browse-js.html
 ---
 
 {{ content }}
 
-<div class="row mb-3 justify-content-center">
-    <div class="col-md-8 text-center">
+<div class="row mb-3 justify-content-start">
+    <div class="col-md-8 text-start">
         <form role="search" id="lunrSearch" onsubmit="submitFilter(); return false;">
             <div class="input-group input-group-lg">
                 <input type="text" class="form-control" id="filterTextBox" placeholder="Filter ... " aria-label="Search"> 
@@ -15,7 +15,7 @@ custom-foot: js/browse-js.html
                 <button class="btn btn-outline-secondary filter" onclick="resetFilter(); return false;" data-filter="" >Reset</button>
             </div>
         </form>
-        <div class="h2" id="numberOf"></div>
+        <div class="h4" id="numberOf"></div>
     </div>
     <div class="col-md-2">
         <div class="dropdown">

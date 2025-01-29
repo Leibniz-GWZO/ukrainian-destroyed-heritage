@@ -8,7 +8,7 @@
 
 $white:    #fff !default;
 $black:    #000 !default;
-$primary:       #0000ff !default;
+$primary:       #00f !default;
 
 $min-contrast-ratio:   4.5 !default;
 $color-contrast-dark:      $black !default;
@@ -17,6 +17,7 @@ $color-contrast-light:     $white !default;
 $component-active-color:      $white !default;
 $component-active-bg:         $primary !default;
 
+$link-color:                            #00f !default;
 $link-shade-percentage:                   20% !default;
 $link-hover-color:                        shift-color($link-color, $link-shade-percentage) !default;
 

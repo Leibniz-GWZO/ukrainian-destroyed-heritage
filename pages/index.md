@@ -6,6 +6,8 @@ permalink: /
 ---
 <style>
 
+
+/* Logos section styles */
 .logos {
     display: flex;
     justify-content: center;
@@ -16,6 +18,7 @@ permalink: /
 .logos a img {
     max-height: 100px;
 }
+
 </style>
 
 <p class="text-black" id="Introduction">Since the beginning of the full-scale Russian invasion of Ukraine, many cities have been attacked with drones, missiles, and artillery strikes. This has brought death and endless suffering to people and destruction of vital infrastructure. At the same time, Ukraine's cultural heritage has been affected by immense losses.</p>
@@ -43,13 +46,13 @@ Their typological diversity emphasizes that many ruined objects that are primari
     </a>
 </div>
 
-<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+<hr style="height:2px;border-width:0;color: blue;background-color: blue; opacity: 1;">
 
 <p style="color: black; font-size: 0.8em;">The exhibition was curated by <a href="https://www.leibniz-gwzo.de/en/node/1152" target="_blank">Dr. Semen Shyrochyn</a>, Kyiv, <br>in collaboration with the Leibniz Institute for the History and Culture of Eastern Europe <a href="https://www.leibniz-gwzo.de/en" target="_blank">(GWZO)</a>.<br>
 Our gratitude extends to the Leibniz Research Alliance <a href="https://www.leibniz-wert-der-vergangenheit.de/en/" target="_blank">»Value of the Past«</a> for generously supporting the project.</p>
 <div class="logos">
     <a href="https://www.leibniz-wert-der-vergangenheit.de/en/" target="_blank"><img src="assets/img/Leibniz-Forschungsverbund-WdV-logo-screenshot.jpg" alt="Leibniz Research Alliance »Value of the Past«"></a>
-    <a href="https://leibniz-gwzo.de/de" target="_blank"><img src="assets/img/gwzo_en_A_r_3_rgb.jpg" alt="GWZO"></a>
+    <a href="https://leibniz-gwzo.de/en" target="_blank"><img src="assets/img/gwzo_en_A_r_3_rgb.jpg" alt="GWZO"></a>
 </div>
 
 &nbsp;
