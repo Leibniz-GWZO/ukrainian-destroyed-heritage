@@ -1,7 +1,7 @@
 ---
 title: Exhibition
-layout: exhibition
-permalink: /exhibition.html
+layout: browse
+permalink: /browse.html
 ---
 
 ## Exhibition Items

@@ -1,3 +1,90 @@
+<style>
+    .card-text:empty {
+        display: none;
+    }
+    .browse-items-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(536px, 1fr)); /* Ensures proper card distribution */
+        gap: 0px 45px; /* Only horizontal gaps between cards */
+        justify-content: center;
+        max-width: 100%;
+    }
+
+    .item {
+        max-width: 536px;
+    }
+
+    .item .card {
+        width: 100%;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item .card-body {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 5px; /* Ensures consistent spacing between elements */
+    }   
+
+    .item .card-img-top {
+        width: 100%; /* Full width */
+        max-height: 250px; /* Adjust to your preferred height */
+        object-fit: cover; /* Ensures the image fills the card without distortion */
+    }
+
+    @media (max-width: 1200px) {
+        .browse-items-container {
+            grid-template-columns: repeat(2, 1fr); /* Two cards per row */
+        }
+    }
+
+    @media (max-width: 768px) {
+        .browse-items-container {
+            grid-template-columns: 1fr; /* One card per row */
+        }
+    }
+
+    p:empty {
+        display: none;
+    }
+
+    /* Ensure location & title are grouped together */
+    .card-body > .mb-2 {
+        margin-bottom: 4px;
+    }
+
+   /* Ensure region & subsection fields and buttons stay grouped */
+    .d-flex.flex-column.gap-1 {
+        gap: 5px; /* Adjust for uniform vertical spacing */
+    }
+
+    /* Make buttons align properly within their container */
+    .d-flex.align-items-center {
+        align-items: center;
+        gap: 10px; /* Ensure space between field names and buttons */
+    }
+
+    /* Ensure buttons don't stretch */
+    .btn-sm {
+        white-space: nowrap; /* Prevents buttons from wrapping to multiple lines */
+    }
+
+    /* Ensure the horizontal line and "View Full Record" stick together */
+    hr {
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+
+    .text-dark.icon-link {
+        font-size: 0.9em;
+        font-weight: bold;
+        text-align: center;
+    }
+</style>
+
 {% if site.data.theme.browse-child-objects == true %}
 {%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
 {% else %}
@@ -21,6 +108,7 @@ var items = [
 
 {% include js/get-icon.js %}
 
+
 /* function to create cards for each item */ 
 function makeCard(obj) {
     // placeholder image for lazyload
@@ -38,56 +126,78 @@ function makeCard(obj) {
     }
     var imgAlt = obj.alt ? obj.alt : obj.title;
 
-    // start card
+    // Start card
     var card = '<div class="item col-lg-4 col-md-6 mb-2"><div class="card">';
-    // top image for items with image
-    if(imgSrc) {
-        card += '<a href="' + itemHref + '"> <img class="card-img-top lazyload" src="' + placeholder + '" data-src="' + imgSrc + '" alt="' + imgAlt + '"></a>';
+
+    // Add top image
+    if (imgSrc) {
+        card += '<a href="' + itemHref + '"><img class="card-img-top lazyload" src="' + placeholder + '" data-src="' + imgSrc + '" alt="' + imgAlt + '"></a>';
     }
-    // title
-    card += '<div class="card-body text-start"> <a class="text-dark fw-light text-start ">' + obj.location + '</a><h3 class="card-title h4"><a href="' + itemHref + '" class="text-dark fw-bold text-start ">' + obj.title + '</a></h3>';
-    // icon thumb for item without image
-    if(thumbIcon){
+
+    // **Group location & title together**
+    card += '<div class="card-body text-start">';
+    card += '<div class="mb-2">'; // Ensures location and title stick together
+    card += '<a class="text-dark fw-light small">' + obj.location + '</a>';
+    card += '<h3 class="card-title h4 mb-0"><a href="' + itemHref + '" class="text-dark fw-bold">' + obj.title + '</a></h3>';
+    card += '</div>'; // End location-title container
+
+    // Icon thumbnail for items without an image
+    if (thumbIcon) {
         card += '<p><a href="' + itemHref + '">' + thumbIcon + '</a></p>';
     }
-    // other fields
-    card += '<p class="card-text fs-6 text-start">';
+
+    // Add text field only if it contains valid text
+    if (obj.text && obj.text.trim() !== "") {
+        card += '<p class="card-text fs-6 text-start">' + obj.text + '</p>';
+    }
+
+    // Loop through fields and render their values or buttons
+    // Ensure fields and buttons are wrapped in a flex container
+    var hasButtons = false; // Track if any buttons exist
+
     {% for f in fields %}{% unless f.hidden == 'true' %}
     if (obj[{{ f.field | jsonify }}]) {
-        card += '<div class="d-flex align-items-center mb-1">';
-        // Left-aligned field name with fixed width
+        if (!hasButtons) {
+            card += '<div class="d-flex flex-column gap-1">'; // Wrap fields inside a single flex column
+            hasButtons = true;
+        }
+
+        card += '<div class="d-flex align-items-center">';
+
+        // Display field name (e.g., "Region:", "Subsection:")
         {% if f.display_name %}
         card += '<span class="flex-shrink-0" style="min-width: 100px; font-size: 0.8em">{{ f.display_name }}:</span>';
         {% endif %}
 
-        // Display button or value
         {% if f.btn == 'true' %}
         var btns = obj[{{ f.field | jsonify }}].split(";");
         for (var i = 0, len = btns.length; i < len; i++) {
-            if (btns[i] != "") {
-                card += '<a class="btn btn-sm btn-outline-dark text-wrap" href="{{ page.url | relative_url }}#' + encodeURIComponent(btns[i].trim()) + '">' + btns[i].trim() + '</a>';
+            if (btns[i].trim() !== "") {
+                card += '<a class="btn btn-sm btn-outline-dark d-block my-1 text-nowrap" href="{{ page.url | relative_url }}#' 
+                    + encodeURIComponent(btns[i].trim()) + '">' + btns[i].trim() + '</a>';
             }
         }
         {% else %}
         card += '<span>' + obj[{{ f.field | jsonify }}] + '</span>';
         {% endif %}
-        card += '</div>';
-    }
-    {% endunless %}{% endfor %}
-    card += '</p>';
 
-    // media type
-    //if(obj.template && obj.template != "") {
-    //    mediaIcon = getIcon(obj.template,obj.format,"hidden");
-    //    card += '<p class="card-text"><small><a class="btn btn-sm btn-outline-secondary" href="{{ page.url | relative_url }}#' + encodeURIComponent(obj.template) + '">' + 
-    //    obj.template.toUpperCase() + ' ' + mediaIcon + '</a></small></p>';
-    //}
-    
-    // view button
-    card += '<hr><a href="' + itemHref + '" class="btn btn-sm btn-light" title="link to ' + obj.title + '">View Full Record</a>';
-    // close divs
+        card += '</div>'; // Close .d-flex row for each field
+    }
+
+    {% endunless %}
+    {% endfor %}
+
+    if (hasButtons) {
+        card += '</div>'; // Close the .d-flex.flex-column container
+    }
+
+    // Ensure horizontal line and "View Full Record" link are grouped
+    card += '<hr><a href="' + itemHref + '" class="text-dark icon-link icon-link-hover d-block text-start my-2" style="--bs-link-hover-color-rgb: 0, 0, 0;" title="link to ' + obj.title + '">View Full Record &rarr;</a>';
+
+    // Close divs properly
     card += '</div></div></div>';
-    // send back big string
+
+    // Return final card
     return card;
 }
 
