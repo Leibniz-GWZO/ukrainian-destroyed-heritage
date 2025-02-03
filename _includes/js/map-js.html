@@ -13,6 +13,25 @@
 {% if site.data.theme.map-cluster == true %}<script src="{{ '/assets/lib/leaflet/leaflet.markercluster.js' | relative_url }}"></script>{% endif %}
 {% if site.data.theme.map-search == true and site.data.theme.map-cluster == true %}<script src="{{ '/assets/lib/leaflet/leaflet.markercluster.freezable.js' | relative_url }}"></script>{% endif %}
 
+<style>
+    /* Make cluster markers black and white */
+    .marker-cluster-small, 
+    .marker-cluster-medium, 
+    .marker-cluster-large {
+        background-color: #000 !important;  /* Black background */
+        border: 2px solid #fff !important;  /* White border */
+        color: #fff !important;             /* White text */
+        filter: grayscale(100%);            /* Grayscale effect */
+    }
+    
+    /* Ensure the text inside remains visible */
+    .marker-cluster div {
+        background: transparent !important;
+        color: #fff !important;
+        font-weight: bold;
+    }
+</style>    
+
 <script>
 (function(){
     /* add collection map data */
