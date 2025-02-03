@@ -37,7 +37,16 @@ jobs:
           JEKYLL_ENV: production
 
       - name: Verify Jekyll output
-        run: ls -la _site  # Debugging step to ensure _site directory is created
+        run: ls -la _site  # Debugging step
+
+      - name: Remove symlinks  # ✅ Fix symlink issue
+        run: find _site -type l -delete
+
+      - name: Fix file permissions  # ✅ Ensure files are readable
+        run: chmod -R 755 _site
+
+      - name: List largest files (optional check)
+        run: du -ah _site | sort -rh | head -20
 
       - name: Upload site artifact
         uses: actions/upload-artifact@v4
@@ -53,9 +62,6 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: List artifacts
-        run: ls -la  # Debugging step to ensure artifact is available
-
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
