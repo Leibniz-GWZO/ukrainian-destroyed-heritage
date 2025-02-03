@@ -1,0 +1,70 @@
+{
+    "profile": "data-package",
+    "name": "destroyed-ukrainian-heritage-data",
+    "title": "Destroyed Ukrainian Heritage Data",
+    "description": "Metadata and data derived from Destroyed Ukrainian Heritage. Since the beginning of the full scale Russian invasion to Ukraine many cities suffer from drones, missiles and artillery strikes. It is difficult to determine the total number of ruined buildings, but the estimated count is already more than 200,000.",
+    "keywords":  ["ukraine","history","built","heritage","destruction","war","invasion","2022"],
+    "homepage": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/",
+    "contributors": [
+        {
+            "title": "Leibniz Institute for the History and Culture of Eastern Europe (GWZO)",
+            "path": "https://leibniz-gwzo.de/en",
+            "role": "author"
+        }
+    ],
+    "image": "/objects/small/chernihiv_theatre_semen_shyrochyn_sm.jpg",
+    "licenses": [
+        {
+            "name": "CC0-1.0",
+            "title": "CC0 1.0",
+            "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    ],
+    "resources": [
+         
+        {
+            "name": "facets-json",
+            "path": "facets.json",
+            "title": "Destroyed Ukrainian Heritage Metadata Facets",
+            "description":"Unique values and counts of metadata facet fields.",
+            "format":"json",
+            "profile": "data-resource"
+        },
+        
+        
+        
+        {
+            "name": "geodata-json",
+            "path": "geodata.json",
+            "title": "Destroyed Ukrainian Heritage geographic metadata",
+            "description": "Geojson data containing all objects with lat-longs and associated descriptive metadata.",
+            "format":"json",
+            "profile": "data-resource"
+        },
+        
+        {
+            "name": "timeline-json",
+            "path": "timelinejs.json",
+            "title": "Destroyed Ukrainian Heritage timeline metadata",
+            "description": "Time-based metadata formatted for TimelineJS or other applications.",
+            "format":"json",
+            "profile": "data-resource"
+        },
+        {
+            "name": "metadata-csv",
+            "path": "metadata.csv",
+            "title": "Destroyed Ukrainian Heritage full metadata in csv",
+            "description": "Complete metadata export for Destroyed Ukrainian Heritage objects.",
+            "format":"csv",
+            "profile":"data-resource"
+        },
+        {
+            "name": "metadata-json",
+            "path": "metadata.json",
+            "title": "Destroyed Ukrainian Heritage full metadata in json",
+            "description": "Complete metadata export for Destroyed Ukrainian Heritage objects.",
+            "format":"json",
+            "profile":"data-resource"
+        }
+    ]
+}

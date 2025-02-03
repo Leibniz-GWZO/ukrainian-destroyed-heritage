@@ -1,0 +1,966 @@
+{
+    "type": "FeatureCollection",
+    "features": [ 
+        
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[37.729851,48.51212]
+            },            
+            "properties":{
+                "title": "Railway Station",
+                "description": "The railway station was an example of decorated neoclassical architecture. The two-story building had a symmetrical plan, with the facade decorated with massive arched windows and a large pediment. Later, the station in the city of Kramatorsk was built to the same plan. The station building was significantly damaged by a missile attack, and the possibility of its restoration is unknown.",
+                "subsection": "transport",
+                "location": "Костянтинівка / Kostyantynivka",
+                "latitude": "48.51212",
+                "longitude": "37.729851",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kostyantynivka_railway_pastvu_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kostyantynivka_railway_pastvu.jpg",
+                "reference_url": "/items/obj_001.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[31.325388,51.50236]
+            },            
+            "properties":{
+                "title": "Tarnovsky House (Youth Library)",
+                "description": "The neo-Gothic one-story building of the Tarnovsky House initially functioned as a craft school for the nearby orphanage. Since 1902 the building housed a museum of Ukrainian antiquities – one of the first and most famous in Ukraine. In 1980 the building was repurposed into the Chernihiv Regional Library for Youth. After the Russian shelling, the building was heavily damaged, but due to its status as an architectural monument it was decided to restore it.",
+                "subsection": "public",
+                "location": "Чернігів / Chernihiv",
+                "latitude": "51.50236",
+                "longitude": "31.325388",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/chernihiv_library_semen_shyrochyn_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/chernihiv_library_semen_shyrochyn.jpg",
+                "reference_url": "/items/obj_004.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[31.299368,51.491369]
+            },            
+            "properties":{
+                "title": "Drama Theatre",
+                "description": "The Chernihiv Drama Theatre occupies a key place in the urban ensemble of one of the main squares of Chernihiv. The facade of the neoclassical building is decorated with many sculptures, and the building itself was built according to a design that was used in several cities in Ukraine. Since the rocket exploded above the building, its walls were not seriously damaged.",
+                "subsection": "public",
+                "location": "Чернігів / Chernihiv",
+                "latitude": "51.491369",
+                "longitude": "31.299368",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/chernihiv_theatre_semen_shyrochyn_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/chernihiv_theatre_semen_shyrochyn.jpg",
+                "reference_url": "/items/obj_007.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[28.492331,49.238981]
+            },            
+            "properties":{
+                "title": "House of Officers",
+                "description": "The neoclassical Officers' House in Vinnytsia occupies an important place in the ensemble of the surrounding streets and terminates the perspective of Vinnytsia’s Kotsyubinsky Avenue. The building was already damaged during the Second World War, after which it was restored. In 2022, it was damaged again. Despite the fact that the building has been an architectural monument since 1997, local authorities initially did not want to restore it, wanting to build a shopping mall instead. Only a scandal involving the urban conservation community forced them to change their plans.",
+                "subsection": "public",
+                "location": "Вінниця / Vynnitsya",
+                "latitude": "49.238981",
+                "longitude": "28.492331",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/vynnitsya_semen_shyrochyn_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/vynnitsya_semen_shyrochyn.jpg",
+                "reference_url": "/items/obj_010.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[35.008729,48.474068]
+            },            
+            "properties":{
+                "title": "Bus Station",
+                "description": "The Dnipro Bus Station is an example of late modernism in Ukrainian architecture. In terms of design, it is the most complex bus station in all of Ukraine. The building had two levels of bus terminals, many administrative offices, and a hotel. The building was damaged by Russian shelling. Due to its young age, its architectural value is not publicly recognized, and it is unknown whether it will be restored.",
+                "subsection": "transport",
+                "location": "Дніпро / Dnipro",
+                "latitude": "48.474068",
+                "longitude": "35.008729",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/dnipro_bus_station_dp_informator_ua_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/dnipro_bus_station_dp_informator_ua.jpg",
+                "reference_url": "/items/obj_013.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[38.499983,48.936931]
+            },            
+            "properties":{
+                "title": "Ice Sports Palace",
+                "description": "The Severodonetsk Ice Sports Palace was one of the largest structures of its kind in the USSR, accommodating up to 5,000 spectators. The building was multifunctional: it could be used as a sports arena, a concert hall, a cinema, and a congress palace. The various functions of the building were depicted in several mosaics decorating the corners of the façade. As a result of Russian shelling, the structures supporting the roof of the hall were damaged and the building collapsed.",
+                "subsection": "sports",
+                "location": "Сєвєродонецьк / Severodonetsk",
+                "latitude": "48.936931",
+                "longitude": "38.499983",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/severodonetsk_ice_palace(olexandr_yakubenko)_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/severodonetsk_ice_palace(olexandr_yakubenko).jpg",
+                "reference_url": "/items/obj_016.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[30.496472,50.441661]
+            },            
+            "properties":{
+                "title": "Joseph Lev House on Zhylianska Street",
+                "description": "This residential building on Zhylianska Street was built by the Jewish merchant Joseph Lev. The building's architecture is based on the popular brick style of the turn of the 19th and 20th centuries. This building was the first historical building in Kyiv to be damaged as a result of the Russian attack. Despite a petition from city residents for a restoration, city authorities are unwilling to restore it.",
+                "subsection": "residential",
+                "location": "Київ / Kyiv",
+                "latitude": "50.441661",
+                "longitude": "30.496472",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kyiv_zhylianska_semen_shyrochyn_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kyiv_zhylianska_semen_shyrochyn.jpg",
+                "reference_url": "/items/obj_019.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[35.126502,47.845622]
+            },            
+            "properties":{
+                "title": "Zaporozhstal Factory House",
+                "description": "The residential building of the Zaporizhstal plant is one of the key elements of the architectural ensemble of Soborny Avenue. Its facade is faced with ceramic tiles and richly decorated with architectural elements recalling the Renaissance. The restoration of the building after the Russian missile strike became a unique example of careful treatment of architectural monuments. To recreate the lost decorations, the technology for ceramic tiles and decoration production was used for the first time since the 1950s.",
+                "subsection": "residential",
+                "location": "Запоріжжя / Zaporizhzhia",
+                "latitude": "47.845622",
+                "longitude": "35.126502",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/zaporizhzhia_151_semen_shyrochyn_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/zaporizhzhia_151_semen_shyrochyn.jpg",
+                "reference_url": "/items/obj_022.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[33.373997,46.773782]
+            },            
+            "properties":{
+                "title": "Kahovska Power Plant",
+                "description": "The machine hall of the Kakhovka hydroelectric power station was incredibly exquisite in architectural terms. Its façade featured Renaissance-revival architectural techniques, while the round porthole windows referred to both the Bauhaus and the rose windows of the Gothic era. As a result of the blowing up of the hydroelectric power station by Russian troops, the machine hall fell apart into several pieces and cannot be restored.",
+                "subsection": "industry",
+                "location": "Нова Каховка / Nova Kakhovka",
+                "latitude": "46.773782",
+                "longitude": "33.373997",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kahovka_ges_uhe_gov_ua_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kahovka_ges_uhe_gov_ua.jpg",
+                "reference_url": "/items/obj_025.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[35.081624,47.869194]
+            },            
+            "properties":{
+                "title": "DniproHES Machine Hall",
+                "description": "The Dnieper Hydroelectric Power Plant's turbine hall was an interesting example of Soviet Constructivist architecture which recalls the modernism of the Bauhaus School. The building was faced with Armenian tuff. Many of the original design elements were preserved here, and the turbine hall was planned to be nominated for UNESCO World Heritage Site status.",
+                "subsection": "industry",
+                "location": "Запоріжжя / Zaporizhzhia",
+                "latitude": "47.869194",
+                "longitude": "35.081624",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/zaporizhzhia_dnoproges_oleksandr_malyon_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/zaporizhzhia_dnoproges_oleksandr_malyon.jpg",
+                "reference_url": "/items/obj_028.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[38.47212,48.889002]
+            },            
+            "properties":{
+                "title": "Lysychansk Gymnasium",
+                "description": "The building of the Lysychansk Gymnasium (secondary school) is part of the unique ensemble of the Belgian architectural heritage. Initially, there were barracks for 170 people, later - a hospital, and later - the Gymnasium. The building was listed as a monument and preserved in its original condition until 2022.",
+                "subsection": "educational",
+                "location": "Лисичанськ / Lysychansk",
+                "latitude": "48.889002",
+                "longitude": "38.47212",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/lysychansk_gymnasium_before_serhii_hayday_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/lysychansk_gymnasium_before_serhii_hayday.jpg",
+                "reference_url": "/items/obj_031.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[38.428164,48.917548]
+            },            
+            "properties":{
+                "title": "Palace of Engineers and Technicians",
+                "description": "The neoclassical building of the Palace of Engineers and Technicians won first place at the All-Ukrainian Competition for New Buildings in 1953. Its classicist architecture with the appropriate sculptural elements made it one of the most iconic buildings of the city. It was known for the high quality of the interior design on par with the famous government buildings in Kyiv.",
+                "subsection": "public",
+                "location": "Лисичанськ / Lysychansk",
+                "latitude": "48.917548",
+                "longitude": "38.428164",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/lysychansk_itr_donmining_info_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/lysychansk_itr_donmining_info.jpg",
+                "reference_url": "/items/obj_034.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[37.693319,48.533249]
+            },            
+            "properties":{
+                "title": "Kostyantynivka City Administration",
+                "description": "The building of the Kostiantynivka city administration was originally built as a hotel. Its main facade was oriented towards the railway, as the main city thoroughfare. The building went through a number of renovations, being originally built to a constructivist architectural style, with classical decorative elements later enriching the facade, finally being covered in tile.",
+                "subsection": "administrative",
+                "location": "Костянтинівка / Kostyantynivka",
+                "latitude": "48.533249",
+                "longitude": "37.693319",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kostyantynivka_administration_konstrada_gov_ua_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kostyantynivka_administration_konstrada_gov_ua.jpg",
+                "reference_url": "/items/obj_037.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[36.236011,50.004226]
+            },            
+            "properties":{
+                "title": "Kharkiv Regional Administration",
+                "description": "The Kharkiv Regional Administration building is a reconstruction of a constructivist building designed by architect Steinberg in the 1930s. During the reconstruction, the facade design was changed to neoclassical—the new look given to the whole square. The building is richly decorated with classical elements. After being hit by two missiles, the building was badly damaged, but the public is fighting for its restoration.",
+                "subsection": "administrative",
+                "location": "Харків / Kharkiv",
+                "latitude": "50.004226",
+                "longitude": "36.236011",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kharkiv_oda_shyrochyn_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kharkiv_oda_shyrochyn.jpg",
+                "reference_url": "/items/obj_040.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[31.997203,46.974887]
+            },            
+            "properties":{
+                "title": "Mykolaiv Regional Administration",
+                "description": "The building of the Mykolaiv regional administration became the final element to the ensemble of the central square of the city. Designed in the modernist style, it had a clearly expressed vertical rhythm, echoing the city council building located opposite. The interior of the building contained many monumental art elements. The missile strike completely pierced the central part of the building, and thus its restoration is not considered possible.",
+                "subsection": "administrative",
+                "location": "Миколаїв / Mykolaiv",
+                "latitude": "46.974887",
+                "longitude": "31.997203",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/mykolaiv_oda_dnabb_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/mykolaiv_oda_dnabb.jpg",
+                "reference_url": "/items/obj_043.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[24.020346,49.820803]
+            },            
+            "properties":{
+                "title": "Housing for Polytechnicians",
+                "description": "The residential complex at Striyska street was built in the style of early functionalism. The floor plate arranged around a central courtyard makes for a quiet, enclosed space. The complex was mostly settled by the workers of the Lviv Polytechnic. The restoration of the building began immediately after the missile attack and is mostly finished.",
+                "subsection": "residential",
+                "location": "Львів / Lviv",
+                "latitude": "49.820803",
+                "longitude": "24.020346",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/lviv_polytechnic_baluk_ruined_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/lviv_polytechnic_baluk_ruined.jpg",
+                "reference_url": "/items/obj_046.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[30.73174,46.48311]
+            },            
+            "properties":{
+                "title": "Spaso-Preobrazhensky Cathedral",
+                "description": "The Spaso-Preobrazhensky (Transfiguration of the Savior) Cathedral was built as the main city church. The neoclassical building was located on a city square and served as the focal point of several streets. Its interior and exterior were richly decorated. After the destruction of the original church in 1936, it was restored in the late 20th century.",
+                "subsection": "religious",
+                "location": "Одеса / Odesa",
+                "latitude": "46.48311",
+                "longitude": "30.73174",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/odessa_sobor_shyrochyn_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/odessa_sobor_shyrochyn.jpg",
+                "reference_url": "/items/obj_049.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[31.15036,50.703871]
+            },            
+            "properties":{
+                "title": "St. George Church",
+                "description": "St. George church in the village of Zavorychi was built in 1873. This single-domed wooden church represented the architectural trends of late 19th century. The church survived during the Second World War and the Soviet Era, though in 1935 it was closed and turned it into a grain store.",
+                "subsection": "religious",
+                "location": "Заворичі / Zavorychi",
+                "latitude": "50.703871",
+                "longitude": "31.15036",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/zavorychi_bykov_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/zavorychi_bykov.jpg",
+                "reference_url": "/items/obj_052.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[28.879264,51.150925]
+            },            
+            "properties":{
+                "title": "Church of the Nativity of the Blessed Virgin Mary",
+                "description": "Church of the Nativity of the Blessed Virgin Mary was listed as a monument of national importance. It was one of the best examples of wooden architecture in the region, with its dome resembling neoclassical architecture. The church survived the duration of the Soviet Union including the Second World War, but was ruined by the Russian strike.",
+                "subsection": "religious",
+                "location": "В'язівка / Vyazivka",
+                "latitude": "51.150925",
+                "longitude": "28.879264",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/vyazivka_zhitomir_info_1_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/vyazivka_zhitomir_info_1.jpg",
+                "reference_url": "/items/obj_055.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[35.183399,47.811295]
+            },            
+            "properties":{
+                "title": "House of Abrasive Plant Workers",
+                "description": "These apartments for workers in the abrasives plant were built as a part of larger urban ensemble of Soborny Avenue. Its architecture is consistent with a number of buildings along the avenue. The decision was made to restore the destroyed section, although it is not known whether the original architectural appearance will feature in the restoration, as the building was not listed for historical protection.",
+                "subsection": "residential",
+                "location": "Запоріжжя / Zaporizhzhia",
+                "latitude": "47.811295",
+                "longitude": "35.183399",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/zaporizhzhia_sobor44_shyrochyn_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/zaporizhzhia_sobor44_shyrochyn.jpg",
+                "reference_url": "/items/obj_058.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[37.548059,47.096137]
+            },            
+            "properties":{
+                "title": "Drama Theatre",
+                "description": "The Mariupol Drama Theatre was located on the axis of the city’s central avenue. Although this blueprint had already been used elsewhere, the facade had an unique design incorporating sculptural compositions. The air attack on the theatre caused numerous casualties among the people who used it as a shelter. The occupation authorities plan to restore it in its original form.",
+                "subsection": "public",
+                "location": "Маріуполь / Mariupol",
+                "latitude": "47.096137",
+                "longitude": "37.548059",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/mariupol_theatre_shyrochyn_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/mariupol_theatre_shyrochyn.jpg",
+                "reference_url": "/items/obj_061.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[37.543102,47.097247]
+            },            
+            "properties":{
+                "title": "House with the Clock",
+                "description": "The House with the Clock was one of Mariupol’s most iconic buildings. The clock on the façade was a landmark and the corner underneath it was known as a common meeting-place. The tower housed the studio of the famous artist Viktor Arnautov. The occupiers did not repair the damaged building, opting instead to demolish it for new construction on the same site.",
+                "subsection": "residential",
+                "location": "Маріуполь / Mariupol",
+                "latitude": "47.097247",
+                "longitude": "37.543102",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/mariupol_clock_before_informator_ua_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/mariupol_clock_before_informator_ua.jpg",
+                "reference_url": "/items/obj_064.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[37.554944,47.085622]
+            },            
+            "properties":{
+                "title": "Railway Station",
+                "description": "The railway station building was typical of the modernist era. Its interior was decorated with a grand mosaic panel \"Metallurgists\" by Valentin Konstantinov and Lel Kuzminkov. The building's façade was later re-clad. After damage in 2022, the building was not restored, but demolished, and a new one, similar to the old, was built. The mosaics were lost.",
+                "subsection": "transport",
+                "location": "Маріуполь / Mariupol",
+                "latitude": "47.085622",
+                "longitude": "37.554944",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/mariupol_railway_modernism_in_ua_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/mariupol_railway_modernism_in_ua.jpg",
+                "reference_url": "/items/obj_067.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[37.997047,48.598002]
+            },            
+            "properties":{
+                "title": "Railway Technical School (Former City Hall)",
+                "description": "The building of the former city hall was one of the most elegant in old Bakhmut. The three-storey building, 90 meters wide, was built in the Neo-Renaissance style. The entire Donetsk region was managed from here in 1920-1924. Later, the building housed the railway administration, and since 1955 the railway technical school. In 2022, the building completely burned down as a result of shelling.",
+                "subsection": "educational",
+                "location": "Бахмут / Bakhmut",
+                "latitude": "48.598002",
+                "longitude": "37.997047",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/bakhmut_zemska_before_mykhaylo_kulishov_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/bakhmut_zemska_before_mykhaylo_kulishov.jpg",
+                "reference_url": "/items/obj_070.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[38.00243,48.586035]
+            },            
+            "properties":{
+                "title": "Center for Children and Youth (Former Bank)",
+                "description": "This was one of the first bank buildings in the city. It has some art nouveau features, including floral ornaments. In the course of history, the building served as a pedagogical technical school, a teacher's institute, a high school and a children's and youth center. As a result of Russian shelling, the building was completely burned down.",
+                "subsection": "public / educational",
+                "location": "Бахмут / Bakhmut",
+                "latitude": "48.586035",
+                "longitude": "38.00243",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/bakhmut_city_childrens_and_youth_center_before_hyacint_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/bakhmut_city_childrens_and_youth_center_before_hyacint.jpg",
+                "reference_url": "/items/obj_073.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[38.0007,48.589711]
+            },            
+            "properties":{
+                "title": "Residential House on Myru 42",
+                "description": "The art deco building at 42 Myru Street forms part of the architectural ensemble of the central square. Its rounded facade compositionally reflects the same roundness of the facade of the building across from it. As a result of the damage, the building lost its inner walls, and its condition is worse than it was after the damage in the Second World War.",
+                "subsection": "residential",
+                "location": "Бахмут / Bakhmut",
+                "latitude": "48.589711",
+                "longitude": "38.0007",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/bakhmut_myru_42_1970_s_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/bakhmut_myru_42_1970_s.jpg",
+                "reference_url": "/items/obj_076.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[37.986801,48.591347]
+            },            
+            "properties":{
+                "title": "Railway Station",
+                "description": "The railway station building was built in 1912-1913. Its original appearance had features of Art Nouveau architecture. After its destruction in 1943, the station was rebuilt on top of the old foundation, but followed instead the neoclassical style, along with significant changes to the central volume. Since 2004, the station has had a protected status, but this did not prevent its facade from being distorted by composite panels. The building is now destroyed to a much greater extent.",
+                "subsection": "transport",
+                "location": "Бахмут / Bakhmut",
+                "latitude": "48.591347",
+                "longitude": "37.986801",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/bakhmut_railway_1913_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/bakhmut_railway_1913.jpg",
+                "reference_url": "/items/obj_079.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[32.633353,46.63771]
+            },            
+            "properties":{
+                "title": "Regional Library",
+                "description": "The design of the Oles Honchar Regional Library was based on an improvement of an earlier project. It was located on a picturesque slope near the bank of the Dnieper river. Its valuable modernist interior was especially cherished but was lost as a result of shelling.",
+                "subsection": "public",
+                "location": "Херсон / Kherson",
+                "latitude": "46.63771",
+                "longitude": "32.633353",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kherson_library_before_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kherson_library_before.jpg",
+                "reference_url": "/items/obj_082.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[32.623011,46.638117]
+            },            
+            "properties":{
+                "title": "Yuvileyniy Concert Hall",
+                "description": "The Yuvileyniy Film and Concert Hall is a modernist landmark of Kherson. Its design was adapted from an existing plan, first implemented in Kharkiv in 1957. This is one of the very few modernist buildings to have the status of a protected architectural monument.",
+                "subsection": "public",
+                "location": "Херсон / Kherson",
+                "latitude": "46.638117",
+                "longitude": "32.623011",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kherson_concert_hall_before_shyrochyn_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kherson_concert_hall_before_shyrochyn.jpg",
+                "reference_url": "/items/obj_085.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[32.617223,46.635513]
+            },            
+            "properties":{
+                "title": "Maritime Academy",
+                "description": "The Maritime Academy in Kherson was founded in the days of the Russian Empire. The Academy is a complex, comprised of a number of buildings, built at different times and in different styles. One of the most expressive was a corner neoclassical building with an emphasized cylindrical volume. Shelling left the left wing of the building completely ruined.",
+                "subsection": "educational",
+                "location": "Херсон / Kherson",
+                "latitude": "46.635513",
+                "longitude": "32.617223",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kherson_academy_shyrochyn_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kherson_academy_shyrochyn.jpg",
+                "reference_url": "/items/obj_088.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[36.23265,49.988513]
+            },            
+            "properties":{
+                "title": "Palace of Labour",
+                "description": "The neoclassical building, originally built by the insurance company “Russia”, occupies almost an entire block and combines residential apartments, retail and office space. During the Soviet era, it housed various institutions, including the Palace of Labor. The building is richly decorated with sculptures, including the central sculptural group, ironically titled \"Mercy of Russia\", which miraculously survived the Russian shelling.",
+                "subsection": "administrative / residential",
+                "location": "Харків / Kharkiv",
+                "latitude": "49.988513",
+                "longitude": "36.23265",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kharkiv_palaceoflabour_v_kiryukhin_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kharkiv_palaceoflabour_v_kiryukhin.jpg",
+                "reference_url": "/items/obj_091.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[36.204278,49.998333]
+            },            
+            "properties":{
+                "title": "Palace of Culture of the Railway Workers",
+                "description": "The Palace of Culture of the Railway Workers was one of the most striking examples of constructivist architecture in Kharkiv. Its façade was divided geometrically with prominent glazing in monumental scale. The interior was richly decorated with frescoes by Yevgeny Lanceray. Though the building had been preserved in almost its original form, it was damaged in an airstrike.",
+                "subsection": "public",
+                "location": "Харків / Kharkiv",
+                "latitude": "49.998333",
+                "longitude": "36.204278",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kharkiv_railway_palace_1969_b_mindel_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kharkiv_railway_palace_1969_b_mindel.jpg",
+                "reference_url": "/items/obj_094.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[36.238232,50.003445]
+            },            
+            "properties":{
+                "title": "Maslovsky's Apartment Building",
+                "description": "Maslovsky's apartment house was built in the Art Nouveau style. The house retained its lavishly decorated main staircase and vestibule with an authentic wooden door. Despite minor changes to the exterior, the Art Nouveau interior was preserved. A projectile impact destroyed the entire central part of the building.",
+                "subsection": "residential",
+                "location": "Харків / Kharkiv",
+                "latitude": "50.003445",
+                "longitude": "36.238232",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kharkiv_maslovsky_moniacs_kh_ua_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kharkiv_maslovsky_moniacs_kh_ua.jpg",
+                "reference_url": "/items/obj_097.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[36.297417,48.879522]
+            },            
+            "properties":{
+                "title": "Palace of Culture",
+                "description": "The City Palace of Culture was the largest cultural space in Lozova. It was constructed according to a a standard design. Before the war, the building was restored. Despite a direct missile hit, its restoration remains possible.",
+                "subsection": "public",
+                "location": "Лозова / Lozova",
+                "latitude": "48.879522",
+                "longitude": "36.297417",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/lozova_palace_before_kharkivoda_gov_ua_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/lozova_palace_before_kharkivoda_gov_ua.jpg",
+                "reference_url": "/items/obj_100.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[34.916356,50.317155]
+            },            
+            "properties":{
+                "title": "Railway Station",
+                "description": "The one-story building of the railway station had been preserved since the railway first appeared in the city. It was a typical example of railway architecture of those years. The building survived World War II and was restored in the interim. A direct hit during Russian shelling, however, left nothing to be restored.",
+                "subsection": "transport",
+                "location": "Охтирка / Okhtyrka",
+                "latitude": "50.317155",
+                "longitude": "34.916356",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/okhtyrka_railway_ui_org_ua_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/okhtyrka_railway_ui_org_ua.jpg",
+                "reference_url": "/items/obj_103.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[35.767091,50.156808]
+            },            
+            "properties":{
+                "title": "Skovoroda Museum",
+                "description": "The museum of the Ukrainian philosopher Skovoroda located in the Kovalivsky estate is one of the oldest buildings to have suffered damage during the Russian-Ukrainian war. Though a direct missile hit damaged the building, a significant part of the exhibits were saved through prompt evacuation. Plans to restore the museum have been announced.",
+                "subsection": "museum",
+                "location": "Сковородинівка / Skovorodynivka",
+                "latitude": "50.156808",
+                "longitude": "35.767091",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/skovorodynivka_2011_denis_vitchenko_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/skovorodynivka_2011_denis_vitchenko.jpg",
+                "reference_url": "/items/obj_106.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[35.015442,48.475386]
+            },            
+            "properties":{
+                "title": "Residential House on Vokzalna Square",
+                "description": "The residential building on Vokzalna Square was one of the most important elements of the square's neoclassical architectural ensemble. Originally planned with a high tower, it sits at the terminus of city’s central avenue. A missile strike on the building destroyed its top floor.",
+                "subsection": "residential",
+                "location": "Дніпро / Dnipro",
+                "latitude": "48.475386",
+                "longitude": "35.015442",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/dnipro_vokzalna_shyrochyn_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/dnipro_vokzalna_shyrochyn.jpg",
+                "reference_url": "/items/obj_109.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[37.591763,48.742019]
+            },            
+            "properties":{
+                "title": "Residential House on Marat Street",
+                "description": "The residential building at 13 Marata Street was a part of an ensemble of four buildings, with three of the four built in the 1950s. Despite its overall modesty, the facade was adorned with a number of neoclassical decorations. After a missile strike, several sections of the building were destroyed. Residents want the building to be restored, but city authorities doubt this is possible.",
+                "subsection": "residential",
+                "location": "Краматорськ / Kramatorsk",
+                "latitude": "48.742019",
+                "longitude": "37.591763",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kramatorsk_marata13_volodymyr_kotsarenko_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kramatorsk_marata13_volodymyr_kotsarenko.jpg",
+                "reference_url": "/items/obj_112.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[30.481876,50.450393]
+            },            
+            "properties":{
+                "title": "Okhmadyt Children's Hospital",
+                "description": "The children's hospital was built during the Russian Empire with funds from philanthropist Nikola Tereshchenko. The missile's impact on the hospital building was one of the most famous and egregious cases of a strike on civilian infrastructure during Russian-Ukrainian war. Despite non-critical damage and many donations, it is unknown whether the historic building will be restored.",
+                "subsection": "hospital",
+                "location": "Київ / Kyiv",
+                "latitude": "50.450393",
+                "longitude": "30.481876",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kyiv_okhmadyt_village_com_ua_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kyiv_okhmadyt_village_com_ua.jpg",
+                "reference_url": "/items/obj_115.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[30.233326,50.533906]
+            },            
+            "properties":{
+                "title": "Palace of Culture",
+                "description": "Irpin's Palace of Culture was built by order of the Bucha brick factory. It was the city's most monumental building, decorated with sculpture and neoclassical decorations. As a result of the shelling, the building was damaged, and there is an ongoing discussion about the possibility of its restoration.",
+                "subsection": "public",
+                "location": "Ірпінь / Irpin",
+                "latitude": "50.533906",
+                "longitude": "30.233326",
+                
+                "type": "record",
+                
+                
+                
+                
+                "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/irpin_club_shyrochyn_th.jpg",
+                "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/irpin_club_shyrochyn.jpg",
+                "reference_url": "/items/obj_118.html"
+            }
+        }
+    ]
+}

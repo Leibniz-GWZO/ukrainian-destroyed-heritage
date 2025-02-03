@@ -1,0 +1,656 @@
+{
+  "title": {
+      "media": {
+          "url": "",
+          "caption": "",
+          "credit": ""
+      },
+      "text": {
+          "headline": "The Record Of Destruction Timeline",
+          "text": "Follow along with the destruction of Ukraine's built heritage."
+      }
+  },
+  "events": [
+      {
+          "media": {
+              "url": "/objects/small/kostyantynivka_railway_serhii_leshchenko_sm.jpg",
+              "caption": "Copyright: Serhii Leshchenko",
+              "link": "/items/obj_001.html#img_003"
+          },
+          "start_date": { 
+              
+              "month": "02",
+              "day": "25",
+              "year": "2024"
+          },
+          "text": {
+              "headline": "Railway Station",
+              "text": "Ruins of Kostyantynivka Railway station"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/chernihiv_library_ministry_sm.jpg",
+              "caption": "Copyright: Ministry of Internal affairs of Ukraine",
+              "link": "/items/obj_004.html#img_006"
+          },
+          "start_date": { 
+              
+              "month": "03",
+              "day": "11",
+              "year": "2022"
+          },
+          "text": {
+              "headline": "Tarnovsky House (Youth Library)",
+              "text": "The damaged building of Chernihiv youth library"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/chernihiv_theatre_suspilne_chernihiv_sm.jpg",
+              "caption": "Copyright: Suspile Chernihiv",
+              "link": "/items/obj_007.html#img_009"
+          },
+          "start_date": { 
+              
+              "month": "08",
+              "day": "19",
+              "year": "2023"
+          },
+          "text": {
+              "headline": "Drama Theatre",
+              "text": "Aerial view of the Chernihiv Drama theater after the strike"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/vynnitsya_president_gov_ua_sm.jpg",
+              "caption": "Copyright: president.gov.ua",
+              "link": "/items/obj_010.html#img_012"
+          },
+          "start_date": { 
+              
+              "month": "07",
+              "day": "14",
+              "year": "2022"
+          },
+          "text": {
+              "headline": "House Of Officers",
+              "text": "Aerial view of the House of Officers after the strike"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/dnipro_bus_station_mykola_synelnykov(reuters)_sm.jpg",
+              "caption": "Copyright: Mykola Synelnykov (REUTERS)",
+              "link": "/items/obj_013.html#img_015"
+          },
+          "start_date": { 
+              
+              "month": "08",
+              "day": "24",
+              "year": "2023"
+          },
+          "text": {
+              "headline": "Bus Station",
+              "text": "Ruins of the bus station on the day of the attack"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/severodonetsk_ice_palace(vchaspik_ua)_sm.jpg",
+              "caption": "Copyright: vchaspik.ua",
+              "link": "/items/obj_016.html#img_018"
+          },
+          "start_date": { 
+              
+              "month": "06",
+              "day": "01",
+              "year": "2022"
+          },
+          "text": {
+              "headline": "Ice Sports Palace",
+              "text": "Ruins of Ice Sports Palace"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/kyiv_zhylianska_sviydim_media_sm.jpg",
+              "caption": "Copyright: sviydim.media",
+              "link": "/items/obj_019.html#img_021"
+          },
+          "start_date": { 
+              
+              "month": "10",
+              "day": "17",
+              "year": "2022"
+          },
+          "text": {
+              "headline": "Joseph Lev House On Zhylianska Street",
+              "text": "Josehp Lev house in ruins"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/zaporizhzhia_151_zprz_city_sm.jpg",
+              "caption": "Copyright: zprz.city",
+              "link": "/items/obj_022.html#img_024"
+          },
+          "start_date": { 
+              
+              "month": "10",
+              "day": "06",
+              "year": "2022"
+          },
+          "text": {
+              "headline": "Zaporozhstal Factory House",
+              "text": "Zaporozhstal factory house on the day of attack"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/kahovka_ges_news_obozrevatel_com_sm.jpg",
+              "caption": "Copyright: news.obozrevatel.com",
+              "link": "/items/obj_025.html#img_027"
+          },
+          "start_date": { 
+              
+              "month": "06",
+              "day": "06",
+              "year": "2023"
+          },
+          "text": {
+              "headline": "Kahovska Power Plant",
+              "text": "Ruins of the demolished Kahovska power plant"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/zaporizhzhia_dnoproges_president_gov_ua_sm.jpg",
+              "caption": "Copyright: president.gov.ua",
+              "link": "/items/obj_028.html#img_030"
+          },
+          "start_date": { 
+              
+              "month": "02",
+              "day": "10",
+              "year": "2023"
+          },
+          "text": {
+              "headline": "Dniprohes Machine Hall",
+              "text": "Inside the ruined DniproHES machine hall"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/lysychansk_gymnasium_after_serhii_hayday_sm.jpg",
+              "caption": "Copyright: Serhii Hayday",
+              "link": "/items/obj_031.html#img_033"
+          },
+          "start_date": { 
+              
+              "month": "05",
+              "day": "01",
+              "year": "2022"
+          },
+          "text": {
+              "headline": "Lysychansk Gymnasium",
+              "text": "Gymnasium during the fire"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/lysychansk_itr_vchaspik_ua_sm.jpg",
+              "caption": "Copyright: vchaspik.ua",
+              "link": "/items/obj_034.html#img_036"
+          },
+          "start_date": { 
+              
+              "month": "06",
+              "day": "15",
+              "year": "2022"
+          },
+          "text": {
+              "headline": "Palace Of Engineers And Technicians",
+              "text": "Ruins of the palace, 2022"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/kostyantynivka_administration_oda_sm.jpg",
+              "caption": "Copyright: Donetsk Regional State Administration",
+              "link": "/items/obj_037.html#img_039"
+          },
+          "start_date": { 
+              
+              "month": "10",
+              "day": "06",
+              "year": "2024"
+          },
+          "text": {
+              "headline": "Kostyantynivka City Administration",
+              "text": "Damaged city administration building, 2024"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/kharkiv_oda_mns_gov_ua_sm.jpg",
+              "caption": "Copyright: MNS.GOV.UA",
+              "link": "/items/obj_040.html#img_042"
+          },
+          "start_date": { 
+              
+              "month": "03",
+              "day": "01",
+              "year": "2022"
+          },
+          "text": {
+              "headline": "Kharkiv Regional Administration",
+              "text": "Ruins of building, 2022"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/mykolaiv_oda_dsns_sm.jpg",
+              "caption": "Copyright: Dsns.gov.ua",
+              "link": "/items/obj_043.html#img_045"
+          },
+          "start_date": { 
+              
+              "month": "03",
+              "day": "29",
+              "year": "2022"
+          },
+          "text": {
+              "headline": "Mykolaiv Regional Administration",
+              "text": "Ruins of building, 2022"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/lviv_polytechnic_baluk_restored_sm.jpg",
+              "caption": "Copyright: Roman Baluk",
+              "link": "/items/obj_046.html#img_048"
+          },
+          "start_date": { 
+              
+              "month": "07",
+              "day": "06",
+              "year": "2023"
+          },
+          "text": {
+              "headline": "Housing For Polytechnicians",
+              "text": "Restored building, 2024"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/odessa_sobor_president_gov_ua_sm.jpg",
+              "caption": "Copyright: president.gov.ua",
+              "link": "/items/obj_049.html#img_051"
+          },
+          "start_date": { 
+              
+              "month": "07",
+              "day": "23",
+              "year": "2023"
+          },
+          "text": {
+              "headline": "Spaso-Preobrazhensky Cathedral",
+              "text": "Cathedral after attack, 2023"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/zavorychi_ukrinform_sm.jpg",
+              "caption": "Copyright: Ukrinform",
+              "link": "/items/obj_052.html#img_054"
+          },
+          "start_date": { 
+              
+              "month": "03",
+              "day": "07",
+              "year": "2022"
+          },
+          "text": {
+              "headline": "St. George Church",
+              "text": "The fire that destroyed the church"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/vyazivka_zhitomir_info_2_sm.jpg",
+              "caption": "Copyright: zhitomir.info",
+              "link": "/items/obj_055.html#img_057"
+          },
+          "start_date": { 
+              
+              "month": "03",
+              "day": "07",
+              "year": "2022"
+          },
+          "text": {
+              "headline": "Church Of The Nativity Of The Blessed Virgin Mary",
+              "text": "Ruins of the church, 2022"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/zaporizhzhia_sobor44_1news_zp_ua_sm.jpg",
+              "caption": "Copyright: 1news.zp.ua",
+              "link": "/items/obj_058.html#img_060"
+          },
+          "start_date": { 
+              
+              "month": "10",
+              "day": "18",
+              "year": "2023"
+          },
+          "text": {
+              "headline": "House Of Abrasive Plant Workers",
+              "text": "Ruins of building, 2023"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/mariupol_theatre_reuters_sm.jpg",
+              "caption": "Copyright: Reuters",
+              "link": "/items/obj_061.html#img_063"
+          },
+          "start_date": { 
+              
+              "month": "03",
+              "day": "16",
+              "year": "2022"
+          },
+          "text": {
+              "headline": "Drama Theatre",
+              "text": "Damaged theatre building, 2022"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/mariupol_clock_after_informator_ua_sm.jpg",
+              "caption": "Copyright: informator.ua",
+              "link": "/items/obj_064.html#img_066"
+          },
+          "start_date": { 
+              
+              "month": "01",
+              "day": "27",
+              "year": "2023"
+          },
+          "text": {
+              "headline": "House With The Clock",
+              "text": "House after demolition, 2022"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/mariupol_railway_reuters_sm.jpg",
+              "caption": "Copyright: Reuters",
+              "link": "/items/obj_067.html#img_069"
+          },
+          "start_date": { 
+              
+              "month": "07",
+              "day": "24",
+              "year": "2022"
+          },
+          "text": {
+              "headline": "Railway Station",
+              "text": "Damaged building after demolition, april 2022"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/bakhmut_zemska_fire_dsns_sm.jpg",
+              "caption": "Copyright: Dsns.gov.ua",
+              "link": "/items/obj_070.html#img_072"
+          },
+          "start_date": { 
+              
+              "month": "10",
+              "day": "14",
+              "year": "2022"
+          },
+          "text": {
+              "headline": "Railway Technical School (Former City Administration)",
+              "text": "Building at fire, 14th october 2022"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/bakhmut_city_childrens_and_youth_center_after_olexiy_reva_sm.jpg",
+              "caption": "Copyright: Olexiy Reva",
+              "link": "/items/obj_073.html#img_075"
+          },
+          "start_date": { 
+              
+              "month": "11",
+              "day": "13",
+              "year": "2022"
+          },
+          "text": {
+              "headline": "Center For Children And Youth (Former Bank)",
+              "text": "Building after the fire, November 2022"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/bakhmut_myru_42_2023_sm.jpg",
+              "caption": "Copyright: freeradio.com.ua",
+              "link": "/items/obj_076.html#img_078"
+          },
+          "start_date": { 
+              
+              "month": "02",
+              "day": "24",
+              "year": "2023"
+          },
+          "text": {
+              "headline": "Residential House On Myru 42",
+              "text": "Building in ruins, 2023"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/bakhmut_railway_2023_sm.jpg",
+              "caption": "Copyright: freeradio.com.ua",
+              "link": "/items/obj_079.html#img_081"
+          },
+          "start_date": { 
+              
+              "month": "11",
+              "day": "12",
+              "year": "2022"
+          },
+          "text": {
+              "headline": "Railway Station",
+              "text": "Ruins of the building, 2023"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/kherson_library_after_sm.jpg",
+              "caption": "Copyright: most.ks.ua",
+              "link": "/items/obj_082.html#img_084"
+          },
+          "start_date": { 
+              
+              "month": "11",
+              "day": "12",
+              "year": "2023"
+          },
+          "text": {
+              "headline": "Regional Library",
+              "text": "Fire after the strike"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/kherson_concert_hall_after_police_sm.jpg",
+              "caption": "Copyright: MNS.GOV.UA",
+              "link": "/items/obj_085.html#img_087"
+          },
+          "start_date": { 
+              
+              "month": "02",
+              "day": "12",
+              "year": "2023"
+          },
+          "text": {
+              "headline": "Yuvileyniy Concert Hall",
+              "text": "Damaged building, 2023"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/kherson_academy_suspilne_media_sm.jpg",
+              "caption": "Copyright: suspilne.media",
+              "link": "/items/obj_088.html#img_090"
+          },
+          "start_date": { 
+              
+              "month": "07",
+              "day": "02",
+              "year": "2024"
+          },
+          "text": {
+              "headline": "Maritime Academy",
+              "text": "Damaged building, 2024"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/kharkiv_palaceoflabour_pavel_dorogoy_sm.jpg",
+              "caption": "Copyright: Pavel Dorogoy",
+              "link": "/items/obj_091.html#img_093"
+          },
+          "start_date": { 
+              
+              "month": "03",
+              "day": "02",
+              "year": "2022"
+          },
+          "text": {
+              "headline": "Palace Of Labour",
+              "text": "Damaged building, 2022"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/kharkiv_railway_palace_dmytro_kuzubov_sm.jpg",
+              "caption": "Copyright: Dmytro Kuzubov",
+              "link": "/items/obj_094.html#img_096"
+          },
+          "start_date": { 
+              
+              "month": "08",
+              "day": "18",
+              "year": "2022"
+          },
+          "text": {
+              "headline": "Palace Of Culture Of Railwaymen",
+              "text": "Damaged building, 2022"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/kharkiv_maslovsky_slovoidilo_ua_sm.jpg",
+              "caption": "Copyright: slovoidilo.ua",
+              "link": "/items/obj_097.html#img_099"
+          },
+          "start_date": { 
+              
+              "month": "03",
+              "day": "14",
+              "year": "2022"
+          },
+          "text": {
+              "headline": "Maslovsky'S Apartment Building",
+              "text": "Ruined building, 2022"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/lozova_palace_attack_suspilne_media_sm.jpg",
+              "caption": "Copyright: suspilne.media",
+              "link": "/items/obj_100.html#img_102"
+          },
+          "start_date": { 
+              
+              "month": "05",
+              "day": "20",
+              "year": "2022"
+          },
+          "text": {
+              "headline": "Palace Of Culture",
+              "text": "Moment of missile strike"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/okhtyrka_railway_railexpoua_com_sm.jpg",
+              "caption": "Copyright: railexpoua.com",
+              "link": "/items/obj_103.html#img_105"
+          },
+          "start_date": { 
+              
+              "month": "03",
+              "day": "03",
+              "year": "2022"
+          },
+          "text": {
+              "headline": "Railway Station",
+              "text": "Remains of station after a direct hit"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/skovorodynivka_chytomo_sm.jpg",
+              "caption": "Copyright: chytomo.com",
+              "link": "/items/obj_106.html#img_108"
+          },
+          "start_date": { 
+              
+              "month": "05",
+              "day": "06",
+              "year": "2022"
+          },
+          "text": {
+              "headline": "Skovoroda Museum",
+              "text": "Fire after the strike"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/dnipro_vokzalna_suspilne_media_sm.jpg",
+              "caption": "Copyright: suspilne.media",
+              "link": "/items/obj_109.html#img_111"
+          },
+          "start_date": { 
+              
+              "month": "04",
+              "day": "19",
+              "year": "2024"
+          },
+          "text": {
+              "headline": "Residential House On Vokzalna Square",
+              "text": "Morning after the attack"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/kramatorsk_marata13_ilya_andreev_sm.jpg",
+              "caption": "Copyright: Ilya Andreev",
+              "link": "/items/obj_112.html#img_114"
+          },
+          "start_date": { 
+              
+              "month": "02",
+              "day": "01",
+              "year": "2023"
+          },
+          "text": {
+              "headline": "Residential House On Marat Street",
+              "text": "Ruined building, 2022"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/kyiv_okhmadyt_moz_gov_ua_sm.jpg",
+              "caption": "Copyright: moz.gov.ua",
+              "link": "/items/obj_115.html#img_117"
+          },
+          "start_date": { 
+              
+              "month": "07",
+              "day": "08",
+              "year": "2024"
+          },
+          "text": {
+              "headline": "Okhmadyt Children'S Hospital",
+              "text": "Hospital after the attack, 2024"
+          }
+      },{
+          "media": {
+              "url": "/objects/small/irpin_club_yulia_mashuta_sm.jpg",
+              "caption": "Copyright: Yulia Mashuta",
+              "link": "/items/obj_118.html#img_120"
+          },
+          "start_date": { 
+              
+              "month": "03",
+              "day": "17",
+              "year": "2022"
+          },
+          "text": {
+              "headline": "Palace Of Culture",
+              "text": "Ruined building, 2022"
+          }
+      }
+  ]
+}
