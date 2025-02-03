@@ -74,7 +74,7 @@ noindex: true
 # (this is done automatically by gh-pages build)
 #
 # ignore stuff
-exclude: [docs/, Rakefile, README.md, LICENSE, CITATION.cff, CODE_OF_CONDUCT.md, CONTRIBUTING.md, SECURITY.md, data_backups, openrefine-3.8.5,]
+exclude: [docs/, Rakefile, README.md, LICENSE, CITATION.cff, CODE_OF_CONDUCT.md, CONTRIBUTING.md, SECURITY.md, data_backups, openrefine-3.8.5, assets/scripts/]
 # compress CSS output
 sass:
   style: compressed
