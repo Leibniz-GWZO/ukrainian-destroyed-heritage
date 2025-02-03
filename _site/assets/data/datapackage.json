@@ -4,7 +4,7 @@
     "title": "Destroyed Ukrainian Heritage Data",
     "description": "Metadata and data derived from Destroyed Ukrainian Heritage. Since the beginning of the full scale Russian invasion to Ukraine many cities suffer from drones, missiles and artillery strikes. It is difficult to determine the total number of ruined buildings, but the estimated count is already more than 200,000.",
     "keywords":  ["ukraine","history","built","heritage","destruction","war","invasion","2022"],
-    "homepage": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/",
+    "homepage": "http://localhost:4000/",
     "contributors": [
         {
             "title": "Leibniz Institute for the History and Culture of Eastern Europe (GWZO)",

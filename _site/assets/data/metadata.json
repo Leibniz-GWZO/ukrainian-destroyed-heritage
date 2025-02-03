@@ -11,8 +11,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kostyantynivka_railway_pastvu_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kostyantynivka_railway_pastvu.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kostyantynivka_railway_pastvu_th.jpg",
+        "object_location": "http://localhost:4000/objects/kostyantynivka_railway_pastvu.jpg",
         "reference_url": "/items/obj_001.html"
     },
     { 
@@ -28,8 +28,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/chernihiv_library_semen_shyrochyn_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/chernihiv_library_semen_shyrochyn.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/chernihiv_library_semen_shyrochyn_th.jpg",
+        "object_location": "http://localhost:4000/objects/chernihiv_library_semen_shyrochyn.jpg",
         "reference_url": "/items/obj_004.html"
     },
     { 
@@ -45,8 +45,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/chernihiv_theatre_semen_shyrochyn_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/chernihiv_theatre_semen_shyrochyn.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/chernihiv_theatre_semen_shyrochyn_th.jpg",
+        "object_location": "http://localhost:4000/objects/chernihiv_theatre_semen_shyrochyn.jpg",
         "reference_url": "/items/obj_007.html"
     },
     { 
@@ -62,8 +62,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/vynnitsya_semen_shyrochyn_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/vynnitsya_semen_shyrochyn.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/vynnitsya_semen_shyrochyn_th.jpg",
+        "object_location": "http://localhost:4000/objects/vynnitsya_semen_shyrochyn.jpg",
         "reference_url": "/items/obj_010.html"
     },
     { 
@@ -79,8 +79,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/dnipro_bus_station_dp_informator_ua_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/dnipro_bus_station_dp_informator_ua.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/dnipro_bus_station_dp_informator_ua_th.jpg",
+        "object_location": "http://localhost:4000/objects/dnipro_bus_station_dp_informator_ua.jpg",
         "reference_url": "/items/obj_013.html"
     },
     { 
@@ -96,8 +96,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/severodonetsk_ice_palace(olexandr_yakubenko)_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/severodonetsk_ice_palace(olexandr_yakubenko).jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/severodonetsk_ice_palace(olexandr_yakubenko)_th.jpg",
+        "object_location": "http://localhost:4000/objects/severodonetsk_ice_palace(olexandr_yakubenko).jpg",
         "reference_url": "/items/obj_016.html"
     },
     { 
@@ -113,8 +113,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kyiv_zhylianska_semen_shyrochyn_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kyiv_zhylianska_semen_shyrochyn.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kyiv_zhylianska_semen_shyrochyn_th.jpg",
+        "object_location": "http://localhost:4000/objects/kyiv_zhylianska_semen_shyrochyn.jpg",
         "reference_url": "/items/obj_019.html"
     },
     { 
@@ -130,8 +130,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/zaporizhzhia_151_semen_shyrochyn_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/zaporizhzhia_151_semen_shyrochyn.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/zaporizhzhia_151_semen_shyrochyn_th.jpg",
+        "object_location": "http://localhost:4000/objects/zaporizhzhia_151_semen_shyrochyn.jpg",
         "reference_url": "/items/obj_022.html"
     },
     { 
@@ -147,8 +147,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kahovka_ges_uhe_gov_ua_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kahovka_ges_uhe_gov_ua.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kahovka_ges_uhe_gov_ua_th.jpg",
+        "object_location": "http://localhost:4000/objects/kahovka_ges_uhe_gov_ua.jpg",
         "reference_url": "/items/obj_025.html"
     },
     { 
@@ -164,8 +164,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/zaporizhzhia_dnoproges_oleksandr_malyon_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/zaporizhzhia_dnoproges_oleksandr_malyon.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/zaporizhzhia_dnoproges_oleksandr_malyon_th.jpg",
+        "object_location": "http://localhost:4000/objects/zaporizhzhia_dnoproges_oleksandr_malyon.jpg",
         "reference_url": "/items/obj_028.html"
     },
     { 
@@ -181,8 +181,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/lysychansk_gymnasium_before_serhii_hayday_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/lysychansk_gymnasium_before_serhii_hayday.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/lysychansk_gymnasium_before_serhii_hayday_th.jpg",
+        "object_location": "http://localhost:4000/objects/lysychansk_gymnasium_before_serhii_hayday.jpg",
         "reference_url": "/items/obj_031.html"
     },
     { 
@@ -198,8 +198,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/lysychansk_itr_donmining_info_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/lysychansk_itr_donmining_info.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/lysychansk_itr_donmining_info_th.jpg",
+        "object_location": "http://localhost:4000/objects/lysychansk_itr_donmining_info.jpg",
         "reference_url": "/items/obj_034.html"
     },
     { 
@@ -215,8 +215,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kostyantynivka_administration_konstrada_gov_ua_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kostyantynivka_administration_konstrada_gov_ua.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kostyantynivka_administration_konstrada_gov_ua_th.jpg",
+        "object_location": "http://localhost:4000/objects/kostyantynivka_administration_konstrada_gov_ua.jpg",
         "reference_url": "/items/obj_037.html"
     },
     { 
@@ -232,8 +232,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kharkiv_oda_shyrochyn_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kharkiv_oda_shyrochyn.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kharkiv_oda_shyrochyn_th.jpg",
+        "object_location": "http://localhost:4000/objects/kharkiv_oda_shyrochyn.jpg",
         "reference_url": "/items/obj_040.html"
     },
     { 
@@ -249,8 +249,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/mykolaiv_oda_dnabb_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/mykolaiv_oda_dnabb.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/mykolaiv_oda_dnabb_th.jpg",
+        "object_location": "http://localhost:4000/objects/mykolaiv_oda_dnabb.jpg",
         "reference_url": "/items/obj_043.html"
     },
     { 
@@ -266,8 +266,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/lviv_polytechnic_baluk_ruined_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/lviv_polytechnic_baluk_ruined.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/lviv_polytechnic_baluk_ruined_th.jpg",
+        "object_location": "http://localhost:4000/objects/lviv_polytechnic_baluk_ruined.jpg",
         "reference_url": "/items/obj_046.html"
     },
     { 
@@ -283,8 +283,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/odessa_sobor_shyrochyn_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/odessa_sobor_shyrochyn.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/odessa_sobor_shyrochyn_th.jpg",
+        "object_location": "http://localhost:4000/objects/odessa_sobor_shyrochyn.jpg",
         "reference_url": "/items/obj_049.html"
     },
     { 
@@ -300,8 +300,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/zavorychi_bykov_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/zavorychi_bykov.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/zavorychi_bykov_th.jpg",
+        "object_location": "http://localhost:4000/objects/zavorychi_bykov.jpg",
         "reference_url": "/items/obj_052.html"
     },
     { 
@@ -317,8 +317,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/vyazivka_zhitomir_info_1_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/vyazivka_zhitomir_info_1.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/vyazivka_zhitomir_info_1_th.jpg",
+        "object_location": "http://localhost:4000/objects/vyazivka_zhitomir_info_1.jpg",
         "reference_url": "/items/obj_055.html"
     },
     { 
@@ -334,8 +334,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/zaporizhzhia_sobor44_shyrochyn_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/zaporizhzhia_sobor44_shyrochyn.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/zaporizhzhia_sobor44_shyrochyn_th.jpg",
+        "object_location": "http://localhost:4000/objects/zaporizhzhia_sobor44_shyrochyn.jpg",
         "reference_url": "/items/obj_058.html"
     },
     { 
@@ -351,8 +351,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/mariupol_theatre_shyrochyn_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/mariupol_theatre_shyrochyn.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/mariupol_theatre_shyrochyn_th.jpg",
+        "object_location": "http://localhost:4000/objects/mariupol_theatre_shyrochyn.jpg",
         "reference_url": "/items/obj_061.html"
     },
     { 
@@ -368,8 +368,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/mariupol_clock_before_informator_ua_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/mariupol_clock_before_informator_ua.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/mariupol_clock_before_informator_ua_th.jpg",
+        "object_location": "http://localhost:4000/objects/mariupol_clock_before_informator_ua.jpg",
         "reference_url": "/items/obj_064.html"
     },
     { 
@@ -385,8 +385,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/mariupol_railway_modernism_in_ua_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/mariupol_railway_modernism_in_ua.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/mariupol_railway_modernism_in_ua_th.jpg",
+        "object_location": "http://localhost:4000/objects/mariupol_railway_modernism_in_ua.jpg",
         "reference_url": "/items/obj_067.html"
     },
     { 
@@ -402,8 +402,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/bakhmut_zemska_before_mykhaylo_kulishov_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/bakhmut_zemska_before_mykhaylo_kulishov.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/bakhmut_zemska_before_mykhaylo_kulishov_th.jpg",
+        "object_location": "http://localhost:4000/objects/bakhmut_zemska_before_mykhaylo_kulishov.jpg",
         "reference_url": "/items/obj_070.html"
     },
     { 
@@ -419,8 +419,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/bakhmut_city_childrens_and_youth_center_before_hyacint_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/bakhmut_city_childrens_and_youth_center_before_hyacint.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/bakhmut_city_childrens_and_youth_center_before_hyacint_th.jpg",
+        "object_location": "http://localhost:4000/objects/bakhmut_city_childrens_and_youth_center_before_hyacint.jpg",
         "reference_url": "/items/obj_073.html"
     },
     { 
@@ -436,8 +436,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/bakhmut_myru_42_1970_s_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/bakhmut_myru_42_1970_s.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/bakhmut_myru_42_1970_s_th.jpg",
+        "object_location": "http://localhost:4000/objects/bakhmut_myru_42_1970_s.jpg",
         "reference_url": "/items/obj_076.html"
     },
     { 
@@ -453,8 +453,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/bakhmut_railway_1913_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/bakhmut_railway_1913.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/bakhmut_railway_1913_th.jpg",
+        "object_location": "http://localhost:4000/objects/bakhmut_railway_1913.jpg",
         "reference_url": "/items/obj_079.html"
     },
     { 
@@ -470,8 +470,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kherson_library_before_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kherson_library_before.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kherson_library_before_th.jpg",
+        "object_location": "http://localhost:4000/objects/kherson_library_before.jpg",
         "reference_url": "/items/obj_082.html"
     },
     { 
@@ -487,8 +487,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kherson_concert_hall_before_shyrochyn_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kherson_concert_hall_before_shyrochyn.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kherson_concert_hall_before_shyrochyn_th.jpg",
+        "object_location": "http://localhost:4000/objects/kherson_concert_hall_before_shyrochyn.jpg",
         "reference_url": "/items/obj_085.html"
     },
     { 
@@ -504,8 +504,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kherson_academy_shyrochyn_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kherson_academy_shyrochyn.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kherson_academy_shyrochyn_th.jpg",
+        "object_location": "http://localhost:4000/objects/kherson_academy_shyrochyn.jpg",
         "reference_url": "/items/obj_088.html"
     },
     { 
@@ -521,8 +521,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kharkiv_palaceoflabour_v_kiryukhin_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kharkiv_palaceoflabour_v_kiryukhin.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kharkiv_palaceoflabour_v_kiryukhin_th.jpg",
+        "object_location": "http://localhost:4000/objects/kharkiv_palaceoflabour_v_kiryukhin.jpg",
         "reference_url": "/items/obj_091.html"
     },
     { 
@@ -538,8 +538,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kharkiv_railway_palace_1969_b_mindel_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kharkiv_railway_palace_1969_b_mindel.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kharkiv_railway_palace_1969_b_mindel_th.jpg",
+        "object_location": "http://localhost:4000/objects/kharkiv_railway_palace_1969_b_mindel.jpg",
         "reference_url": "/items/obj_094.html"
     },
     { 
@@ -555,8 +555,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kharkiv_maslovsky_moniacs_kh_ua_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kharkiv_maslovsky_moniacs_kh_ua.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kharkiv_maslovsky_moniacs_kh_ua_th.jpg",
+        "object_location": "http://localhost:4000/objects/kharkiv_maslovsky_moniacs_kh_ua.jpg",
         "reference_url": "/items/obj_097.html"
     },
     { 
@@ -572,8 +572,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/lozova_palace_before_kharkivoda_gov_ua_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/lozova_palace_before_kharkivoda_gov_ua.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/lozova_palace_before_kharkivoda_gov_ua_th.jpg",
+        "object_location": "http://localhost:4000/objects/lozova_palace_before_kharkivoda_gov_ua.jpg",
         "reference_url": "/items/obj_100.html"
     },
     { 
@@ -589,8 +589,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/okhtyrka_railway_ui_org_ua_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/okhtyrka_railway_ui_org_ua.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/okhtyrka_railway_ui_org_ua_th.jpg",
+        "object_location": "http://localhost:4000/objects/okhtyrka_railway_ui_org_ua.jpg",
         "reference_url": "/items/obj_103.html"
     },
     { 
@@ -606,8 +606,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/skovorodynivka_2011_denis_vitchenko_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/skovorodynivka_2011_denis_vitchenko.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/skovorodynivka_2011_denis_vitchenko_th.jpg",
+        "object_location": "http://localhost:4000/objects/skovorodynivka_2011_denis_vitchenko.jpg",
         "reference_url": "/items/obj_106.html"
     },
     { 
@@ -623,8 +623,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/dnipro_vokzalna_shyrochyn_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/dnipro_vokzalna_shyrochyn.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/dnipro_vokzalna_shyrochyn_th.jpg",
+        "object_location": "http://localhost:4000/objects/dnipro_vokzalna_shyrochyn.jpg",
         "reference_url": "/items/obj_109.html"
     },
     { 
@@ -640,8 +640,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kramatorsk_marata13_volodymyr_kotsarenko_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kramatorsk_marata13_volodymyr_kotsarenko.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kramatorsk_marata13_volodymyr_kotsarenko_th.jpg",
+        "object_location": "http://localhost:4000/objects/kramatorsk_marata13_volodymyr_kotsarenko.jpg",
         "reference_url": "/items/obj_112.html"
     },
     { 
@@ -657,8 +657,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kyiv_okhmadyt_village_com_ua_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kyiv_okhmadyt_village_com_ua.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kyiv_okhmadyt_village_com_ua_th.jpg",
+        "object_location": "http://localhost:4000/objects/kyiv_okhmadyt_village_com_ua.jpg",
         "reference_url": "/items/obj_115.html"
     },
     { 
@@ -674,8 +674,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/irpin_club_shyrochyn_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/irpin_club_shyrochyn.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/irpin_club_shyrochyn_th.jpg",
+        "object_location": "http://localhost:4000/objects/irpin_club_shyrochyn.jpg",
         "reference_url": "/items/obj_118.html"
     },
     { 
@@ -691,8 +691,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kostyantynivka_railway_pastvu_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kostyantynivka_railway_pastvu.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kostyantynivka_railway_pastvu_th.jpg",
+        "object_location": "http://localhost:4000/objects/kostyantynivka_railway_pastvu.jpg",
         "reference_url": "/items/obj_001.html#img_002"
     },
     { 
@@ -708,8 +708,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kostyantynivka_railway_serhii_leshchenko_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kostyantynivka_railway_serhii_leshchenko.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kostyantynivka_railway_serhii_leshchenko_th.jpg",
+        "object_location": "http://localhost:4000/objects/kostyantynivka_railway_serhii_leshchenko.jpg",
         "reference_url": "/items/obj_001.html#img_003"
     },
     { 
@@ -725,8 +725,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/chernihiv_library_semen_shyrochyn_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/chernihiv_library_semen_shyrochyn.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/chernihiv_library_semen_shyrochyn_th.jpg",
+        "object_location": "http://localhost:4000/objects/chernihiv_library_semen_shyrochyn.jpg",
         "reference_url": "/items/obj_004.html#img_005"
     },
     { 
@@ -742,8 +742,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/chernihiv_library_ministry_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/chernihiv_library_ministry.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/chernihiv_library_ministry_th.jpg",
+        "object_location": "http://localhost:4000/objects/chernihiv_library_ministry.jpg",
         "reference_url": "/items/obj_004.html#img_006"
     },
     { 
@@ -759,8 +759,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/chernihiv_theatre_semen_shyrochyn_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/chernihiv_theatre_semen_shyrochyn.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/chernihiv_theatre_semen_shyrochyn_th.jpg",
+        "object_location": "http://localhost:4000/objects/chernihiv_theatre_semen_shyrochyn.jpg",
         "reference_url": "/items/obj_007.html#img_008"
     },
     { 
@@ -776,8 +776,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/chernihiv_theatre_suspilne_chernihiv_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/chernihiv_theatre_suspilne_chernihiv.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/chernihiv_theatre_suspilne_chernihiv_th.jpg",
+        "object_location": "http://localhost:4000/objects/chernihiv_theatre_suspilne_chernihiv.jpg",
         "reference_url": "/items/obj_007.html#img_009"
     },
     { 
@@ -793,8 +793,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/vynnitsya_semen_shyrochyn_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/vynnitsya_semen_shyrochyn.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/vynnitsya_semen_shyrochyn_th.jpg",
+        "object_location": "http://localhost:4000/objects/vynnitsya_semen_shyrochyn.jpg",
         "reference_url": "/items/obj_010.html#img_011"
     },
     { 
@@ -810,8 +810,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/vynnitsya_president_gov_ua_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/vynnitsya_president_gov_ua.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/vynnitsya_president_gov_ua_th.jpg",
+        "object_location": "http://localhost:4000/objects/vynnitsya_president_gov_ua.jpg",
         "reference_url": "/items/obj_010.html#img_012"
     },
     { 
@@ -827,8 +827,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/dnipro_bus_station_dp_informator_ua_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/dnipro_bus_station_dp_informator_ua.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/dnipro_bus_station_dp_informator_ua_th.jpg",
+        "object_location": "http://localhost:4000/objects/dnipro_bus_station_dp_informator_ua.jpg",
         "reference_url": "/items/obj_013.html#img_014"
     },
     { 
@@ -844,8 +844,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/dnipro_bus_station_mykola_synelnykov(reuters)_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/dnipro_bus_station_mykola_synelnykov(reuters).jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/dnipro_bus_station_mykola_synelnykov(reuters)_th.jpg",
+        "object_location": "http://localhost:4000/objects/dnipro_bus_station_mykola_synelnykov(reuters).jpg",
         "reference_url": "/items/obj_013.html#img_015"
     },
     { 
@@ -861,8 +861,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/severodonetsk_ice_palace(olexandr_yakubenko)_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/severodonetsk_ice_palace(olexandr_yakubenko).jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/severodonetsk_ice_palace(olexandr_yakubenko)_th.jpg",
+        "object_location": "http://localhost:4000/objects/severodonetsk_ice_palace(olexandr_yakubenko).jpg",
         "reference_url": "/items/obj_016.html#img_017"
     },
     { 
@@ -878,8 +878,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/severodonetsk_ice_palace(vchaspik_ua)_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/severodonetsk_ice_palace(vchaspik_ua).jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/severodonetsk_ice_palace(vchaspik_ua)_th.jpg",
+        "object_location": "http://localhost:4000/objects/severodonetsk_ice_palace(vchaspik_ua).jpg",
         "reference_url": "/items/obj_016.html#img_018"
     },
     { 
@@ -895,8 +895,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kyiv_zhylianska_semen_shyrochyn_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kyiv_zhylianska_semen_shyrochyn.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kyiv_zhylianska_semen_shyrochyn_th.jpg",
+        "object_location": "http://localhost:4000/objects/kyiv_zhylianska_semen_shyrochyn.jpg",
         "reference_url": "/items/obj_019.html#img_020"
     },
     { 
@@ -912,8 +912,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kyiv_zhylianska_sviydim_media_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kyiv_zhylianska_sviydim_media.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kyiv_zhylianska_sviydim_media_th.jpg",
+        "object_location": "http://localhost:4000/objects/kyiv_zhylianska_sviydim_media.jpg",
         "reference_url": "/items/obj_019.html#img_021"
     },
     { 
@@ -929,8 +929,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/zaporizhzhia_151_semen_shyrochyn_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/zaporizhzhia_151_semen_shyrochyn.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/zaporizhzhia_151_semen_shyrochyn_th.jpg",
+        "object_location": "http://localhost:4000/objects/zaporizhzhia_151_semen_shyrochyn.jpg",
         "reference_url": "/items/obj_022.html#img_023"
     },
     { 
@@ -946,8 +946,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/zaporizhzhia_151_zprz_city_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/zaporizhzhia_151_zprz_city.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/zaporizhzhia_151_zprz_city_th.jpg",
+        "object_location": "http://localhost:4000/objects/zaporizhzhia_151_zprz_city.jpg",
         "reference_url": "/items/obj_022.html#img_024"
     },
     { 
@@ -963,8 +963,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kahovka_ges_uhe_gov_ua_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kahovka_ges_uhe_gov_ua.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kahovka_ges_uhe_gov_ua_th.jpg",
+        "object_location": "http://localhost:4000/objects/kahovka_ges_uhe_gov_ua.jpg",
         "reference_url": "/items/obj_025.html#img_026"
     },
     { 
@@ -980,8 +980,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kahovka_ges_news_obozrevatel_com_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kahovka_ges_news_obozrevatel_com.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kahovka_ges_news_obozrevatel_com_th.jpg",
+        "object_location": "http://localhost:4000/objects/kahovka_ges_news_obozrevatel_com.jpg",
         "reference_url": "/items/obj_025.html#img_027"
     },
     { 
@@ -997,8 +997,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/zaporizhzhia_dnoproges_oleksandr_malyon_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/zaporizhzhia_dnoproges_oleksandr_malyon.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/zaporizhzhia_dnoproges_oleksandr_malyon_th.jpg",
+        "object_location": "http://localhost:4000/objects/zaporizhzhia_dnoproges_oleksandr_malyon.jpg",
         "reference_url": "/items/obj_028.html#img_029"
     },
     { 
@@ -1014,8 +1014,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/zaporizhzhia_dnoproges_president_gov_ua_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/zaporizhzhia_dnoproges_president_gov_ua.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/zaporizhzhia_dnoproges_president_gov_ua_th.jpg",
+        "object_location": "http://localhost:4000/objects/zaporizhzhia_dnoproges_president_gov_ua.jpg",
         "reference_url": "/items/obj_028.html#img_030"
     },
     { 
@@ -1031,8 +1031,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/lysychansk_gymnasium_before_serhii_hayday_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/lysychansk_gymnasium_before_serhii_hayday.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/lysychansk_gymnasium_before_serhii_hayday_th.jpg",
+        "object_location": "http://localhost:4000/objects/lysychansk_gymnasium_before_serhii_hayday.jpg",
         "reference_url": "/items/obj_031.html#img_032"
     },
     { 
@@ -1048,8 +1048,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/lysychansk_gymnasium_after_serhii_hayday_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/lysychansk_gymnasium_after_serhii_hayday.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/lysychansk_gymnasium_after_serhii_hayday_th.jpg",
+        "object_location": "http://localhost:4000/objects/lysychansk_gymnasium_after_serhii_hayday.jpg",
         "reference_url": "/items/obj_031.html#img_033"
     },
     { 
@@ -1065,8 +1065,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/lysychansk_itr_donmining_info_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/lysychansk_itr_donmining_info.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/lysychansk_itr_donmining_info_th.jpg",
+        "object_location": "http://localhost:4000/objects/lysychansk_itr_donmining_info.jpg",
         "reference_url": "/items/obj_034.html#img_035"
     },
     { 
@@ -1082,8 +1082,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/lysychansk_itr_vchaspik_ua_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/lysychansk_itr_vchaspik_ua.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/lysychansk_itr_vchaspik_ua_th.jpg",
+        "object_location": "http://localhost:4000/objects/lysychansk_itr_vchaspik_ua.jpg",
         "reference_url": "/items/obj_034.html#img_036"
     },
     { 
@@ -1099,8 +1099,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kostyantynivka_administration_konstrada_gov_ua_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kostyantynivka_administration_konstrada_gov_ua.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kostyantynivka_administration_konstrada_gov_ua_th.jpg",
+        "object_location": "http://localhost:4000/objects/kostyantynivka_administration_konstrada_gov_ua.jpg",
         "reference_url": "/items/obj_037.html#img_038"
     },
     { 
@@ -1116,8 +1116,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kostyantynivka_administration_oda_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kostyantynivka_administration_oda.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kostyantynivka_administration_oda_th.jpg",
+        "object_location": "http://localhost:4000/objects/kostyantynivka_administration_oda.jpg",
         "reference_url": "/items/obj_037.html#img_039"
     },
     { 
@@ -1133,8 +1133,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kharkiv_oda_shyrochyn_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kharkiv_oda_shyrochyn.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kharkiv_oda_shyrochyn_th.jpg",
+        "object_location": "http://localhost:4000/objects/kharkiv_oda_shyrochyn.jpg",
         "reference_url": "/items/obj_040.html#img_041"
     },
     { 
@@ -1150,8 +1150,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kharkiv_oda_mns_gov_ua_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kharkiv_oda_mns_gov_ua.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kharkiv_oda_mns_gov_ua_th.jpg",
+        "object_location": "http://localhost:4000/objects/kharkiv_oda_mns_gov_ua.jpg",
         "reference_url": "/items/obj_040.html#img_042"
     },
     { 
@@ -1167,8 +1167,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/mykolaiv_oda_dnabb_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/mykolaiv_oda_dnabb.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/mykolaiv_oda_dnabb_th.jpg",
+        "object_location": "http://localhost:4000/objects/mykolaiv_oda_dnabb.jpg",
         "reference_url": "/items/obj_043.html#img_044"
     },
     { 
@@ -1184,8 +1184,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/mykolaiv_oda_dsns_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/mykolaiv_oda_dsns.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/mykolaiv_oda_dsns_th.jpg",
+        "object_location": "http://localhost:4000/objects/mykolaiv_oda_dsns.jpg",
         "reference_url": "/items/obj_043.html#img_045"
     },
     { 
@@ -1201,8 +1201,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/lviv_polytechnic_baluk_ruined_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/lviv_polytechnic_baluk_ruined.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/lviv_polytechnic_baluk_ruined_th.jpg",
+        "object_location": "http://localhost:4000/objects/lviv_polytechnic_baluk_ruined.jpg",
         "reference_url": "/items/obj_046.html#img_047"
     },
     { 
@@ -1218,8 +1218,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/lviv_polytechnic_baluk_restored_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/lviv_polytechnic_baluk_restored.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/lviv_polytechnic_baluk_restored_th.jpg",
+        "object_location": "http://localhost:4000/objects/lviv_polytechnic_baluk_restored.jpg",
         "reference_url": "/items/obj_046.html#img_048"
     },
     { 
@@ -1235,8 +1235,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/odessa_sobor_shyrochyn_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/odessa_sobor_shyrochyn.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/odessa_sobor_shyrochyn_th.jpg",
+        "object_location": "http://localhost:4000/objects/odessa_sobor_shyrochyn.jpg",
         "reference_url": "/items/obj_049.html#img_050"
     },
     { 
@@ -1252,8 +1252,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/odessa_sobor_president_gov_ua_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/odessa_sobor_president_gov_ua.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/odessa_sobor_president_gov_ua_th.jpg",
+        "object_location": "http://localhost:4000/objects/odessa_sobor_president_gov_ua.jpg",
         "reference_url": "/items/obj_049.html#img_051"
     },
     { 
@@ -1269,8 +1269,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/zavorychi_bykov_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/zavorychi_bykov.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/zavorychi_bykov_th.jpg",
+        "object_location": "http://localhost:4000/objects/zavorychi_bykov.jpg",
         "reference_url": "/items/obj_052.html#img_053"
     },
     { 
@@ -1286,8 +1286,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/zavorychi_ukrinform_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/zavorychi_ukrinform.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/zavorychi_ukrinform_th.jpg",
+        "object_location": "http://localhost:4000/objects/zavorychi_ukrinform.jpg",
         "reference_url": "/items/obj_052.html#img_054"
     },
     { 
@@ -1303,8 +1303,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/vyazivka_zhitomir_info_1_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/vyazivka_zhitomir_info_1.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/vyazivka_zhitomir_info_1_th.jpg",
+        "object_location": "http://localhost:4000/objects/vyazivka_zhitomir_info_1.jpg",
         "reference_url": "/items/obj_055.html#img_056"
     },
     { 
@@ -1320,8 +1320,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/vyazivka_zhitomir_info_2_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/vyazivka_zhitomir_info_2.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/vyazivka_zhitomir_info_2_th.jpg",
+        "object_location": "http://localhost:4000/objects/vyazivka_zhitomir_info_2.jpg",
         "reference_url": "/items/obj_055.html#img_057"
     },
     { 
@@ -1337,8 +1337,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/zaporizhzhia_sobor44_shyrochyn_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/zaporizhzhia_sobor44_shyrochyn.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/zaporizhzhia_sobor44_shyrochyn_th.jpg",
+        "object_location": "http://localhost:4000/objects/zaporizhzhia_sobor44_shyrochyn.jpg",
         "reference_url": "/items/obj_058.html#img_059"
     },
     { 
@@ -1354,8 +1354,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/zaporizhzhia_sobor44_1news_zp_ua_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/zaporizhzhia_sobor44_1news_zp_ua.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/zaporizhzhia_sobor44_1news_zp_ua_th.jpg",
+        "object_location": "http://localhost:4000/objects/zaporizhzhia_sobor44_1news_zp_ua.jpg",
         "reference_url": "/items/obj_058.html#img_060"
     },
     { 
@@ -1371,8 +1371,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/mariupol_theatre_shyrochyn_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/mariupol_theatre_shyrochyn.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/mariupol_theatre_shyrochyn_th.jpg",
+        "object_location": "http://localhost:4000/objects/mariupol_theatre_shyrochyn.jpg",
         "reference_url": "/items/obj_061.html#img_062"
     },
     { 
@@ -1388,8 +1388,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/mariupol_theatre_reuters_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/mariupol_theatre_reuters.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/mariupol_theatre_reuters_th.jpg",
+        "object_location": "http://localhost:4000/objects/mariupol_theatre_reuters.jpg",
         "reference_url": "/items/obj_061.html#img_063"
     },
     { 
@@ -1405,8 +1405,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/mariupol_clock_before_informator_ua_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/mariupol_clock_before_informator_ua.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/mariupol_clock_before_informator_ua_th.jpg",
+        "object_location": "http://localhost:4000/objects/mariupol_clock_before_informator_ua.jpg",
         "reference_url": "/items/obj_064.html#img_065"
     },
     { 
@@ -1422,8 +1422,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/mariupol_clock_after_informator_ua_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/mariupol_clock_after_informator_ua.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/mariupol_clock_after_informator_ua_th.jpg",
+        "object_location": "http://localhost:4000/objects/mariupol_clock_after_informator_ua.jpg",
         "reference_url": "/items/obj_064.html#img_066"
     },
     { 
@@ -1439,8 +1439,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/mariupol_railway_modernism_in_ua_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/mariupol_railway_modernism_in_ua.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/mariupol_railway_modernism_in_ua_th.jpg",
+        "object_location": "http://localhost:4000/objects/mariupol_railway_modernism_in_ua.jpg",
         "reference_url": "/items/obj_067.html#img_068"
     },
     { 
@@ -1456,8 +1456,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/mariupol_railway_reuters_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/mariupol_railway_reuters.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/mariupol_railway_reuters_th.jpg",
+        "object_location": "http://localhost:4000/objects/mariupol_railway_reuters.jpg",
         "reference_url": "/items/obj_067.html#img_069"
     },
     { 
@@ -1473,8 +1473,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/bakhmut_zemska_before_mykhaylo_kulishov_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/bakhmut_zemska_before_mykhaylo_kulishov.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/bakhmut_zemska_before_mykhaylo_kulishov_th.jpg",
+        "object_location": "http://localhost:4000/objects/bakhmut_zemska_before_mykhaylo_kulishov.jpg",
         "reference_url": "/items/obj_070.html#img_071"
     },
     { 
@@ -1490,8 +1490,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/bakhmut_zemska_fire_dsns_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/bakhmut_zemska_fire_dsns.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/bakhmut_zemska_fire_dsns_th.jpg",
+        "object_location": "http://localhost:4000/objects/bakhmut_zemska_fire_dsns.jpg",
         "reference_url": "/items/obj_070.html#img_072"
     },
     { 
@@ -1507,8 +1507,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/bakhmut_city_childrens_and_youth_center_before_hyacint_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/bakhmut_city_childrens_and_youth_center_before_hyacint.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/bakhmut_city_childrens_and_youth_center_before_hyacint_th.jpg",
+        "object_location": "http://localhost:4000/objects/bakhmut_city_childrens_and_youth_center_before_hyacint.jpg",
         "reference_url": "/items/obj_073.html#img_074"
     },
     { 
@@ -1524,8 +1524,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/bakhmut_city_childrens_and_youth_center_after_olexiy_reva_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/bakhmut_city_childrens_and_youth_center_after_olexiy_reva.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/bakhmut_city_childrens_and_youth_center_after_olexiy_reva_th.jpg",
+        "object_location": "http://localhost:4000/objects/bakhmut_city_childrens_and_youth_center_after_olexiy_reva.jpg",
         "reference_url": "/items/obj_073.html#img_075"
     },
     { 
@@ -1541,8 +1541,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/bakhmut_myru_42_1970_s_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/bakhmut_myru_42_1970_s.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/bakhmut_myru_42_1970_s_th.jpg",
+        "object_location": "http://localhost:4000/objects/bakhmut_myru_42_1970_s.jpg",
         "reference_url": "/items/obj_076.html#img_077"
     },
     { 
@@ -1558,8 +1558,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/bakhmut_myru_42_2023_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/bakhmut_myru_42_2023.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/bakhmut_myru_42_2023_th.jpg",
+        "object_location": "http://localhost:4000/objects/bakhmut_myru_42_2023.jpg",
         "reference_url": "/items/obj_076.html#img_078"
     },
     { 
@@ -1575,8 +1575,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/bakhmut_railway_1913_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/bakhmut_railway_1913.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/bakhmut_railway_1913_th.jpg",
+        "object_location": "http://localhost:4000/objects/bakhmut_railway_1913.jpg",
         "reference_url": "/items/obj_079.html#img_080"
     },
     { 
@@ -1592,8 +1592,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/bakhmut_railway_2023_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/bakhmut_railway_2023.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/bakhmut_railway_2023_th.jpg",
+        "object_location": "http://localhost:4000/objects/bakhmut_railway_2023.jpg",
         "reference_url": "/items/obj_079.html#img_081"
     },
     { 
@@ -1609,8 +1609,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kherson_library_before_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kherson_library_before.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kherson_library_before_th.jpg",
+        "object_location": "http://localhost:4000/objects/kherson_library_before.jpg",
         "reference_url": "/items/obj_082.html#img_083"
     },
     { 
@@ -1626,8 +1626,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kherson_library_after_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kherson_library_after.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kherson_library_after_th.jpg",
+        "object_location": "http://localhost:4000/objects/kherson_library_after.jpg",
         "reference_url": "/items/obj_082.html#img_084"
     },
     { 
@@ -1643,8 +1643,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kherson_concert_hall_before_shyrochyn_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kherson_concert_hall_before_shyrochyn.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kherson_concert_hall_before_shyrochyn_th.jpg",
+        "object_location": "http://localhost:4000/objects/kherson_concert_hall_before_shyrochyn.jpg",
         "reference_url": "/items/obj_085.html#img_086"
     },
     { 
@@ -1660,8 +1660,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kherson_concert_hall_after_police_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kherson_concert_hall_after_police.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kherson_concert_hall_after_police_th.jpg",
+        "object_location": "http://localhost:4000/objects/kherson_concert_hall_after_police.jpg",
         "reference_url": "/items/obj_085.html#img_087"
     },
     { 
@@ -1677,8 +1677,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kherson_academy_shyrochyn_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kherson_academy_shyrochyn.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kherson_academy_shyrochyn_th.jpg",
+        "object_location": "http://localhost:4000/objects/kherson_academy_shyrochyn.jpg",
         "reference_url": "/items/obj_088.html#img_089"
     },
     { 
@@ -1694,8 +1694,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kherson_academy_suspilne_media_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kherson_academy_suspilne_media.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kherson_academy_suspilne_media_th.jpg",
+        "object_location": "http://localhost:4000/objects/kherson_academy_suspilne_media.jpg",
         "reference_url": "/items/obj_088.html#img_090"
     },
     { 
@@ -1711,8 +1711,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kharkiv_palaceoflabour_v_kiryukhin_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kharkiv_palaceoflabour_v_kiryukhin.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kharkiv_palaceoflabour_v_kiryukhin_th.jpg",
+        "object_location": "http://localhost:4000/objects/kharkiv_palaceoflabour_v_kiryukhin.jpg",
         "reference_url": "/items/obj_091.html#img_092"
     },
     { 
@@ -1728,8 +1728,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kharkiv_palaceoflabour_pavel_dorogoy_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kharkiv_palaceoflabour_pavel_dorogoy.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kharkiv_palaceoflabour_pavel_dorogoy_th.jpg",
+        "object_location": "http://localhost:4000/objects/kharkiv_palaceoflabour_pavel_dorogoy.jpg",
         "reference_url": "/items/obj_091.html#img_093"
     },
     { 
@@ -1745,8 +1745,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kharkiv_railway_palace_1969_b_mindel_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kharkiv_railway_palace_1969_b_mindel.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kharkiv_railway_palace_1969_b_mindel_th.jpg",
+        "object_location": "http://localhost:4000/objects/kharkiv_railway_palace_1969_b_mindel.jpg",
         "reference_url": "/items/obj_094.html#img_095"
     },
     { 
@@ -1762,8 +1762,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kharkiv_railway_palace_dmytro_kuzubov_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kharkiv_railway_palace_dmytro_kuzubov.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kharkiv_railway_palace_dmytro_kuzubov_th.jpg",
+        "object_location": "http://localhost:4000/objects/kharkiv_railway_palace_dmytro_kuzubov.jpg",
         "reference_url": "/items/obj_094.html#img_096"
     },
     { 
@@ -1779,8 +1779,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kharkiv_maslovsky_moniacs_kh_ua_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kharkiv_maslovsky_moniacs_kh_ua.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kharkiv_maslovsky_moniacs_kh_ua_th.jpg",
+        "object_location": "http://localhost:4000/objects/kharkiv_maslovsky_moniacs_kh_ua.jpg",
         "reference_url": "/items/obj_097.html#img_098"
     },
     { 
@@ -1796,8 +1796,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kharkiv_maslovsky_slovoidilo_ua_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kharkiv_maslovsky_slovoidilo_ua.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kharkiv_maslovsky_slovoidilo_ua_th.jpg",
+        "object_location": "http://localhost:4000/objects/kharkiv_maslovsky_slovoidilo_ua.jpg",
         "reference_url": "/items/obj_097.html#img_099"
     },
     { 
@@ -1813,8 +1813,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/lozova_palace_before_kharkivoda_gov_ua_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/lozova_palace_before_kharkivoda_gov_ua.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/lozova_palace_before_kharkivoda_gov_ua_th.jpg",
+        "object_location": "http://localhost:4000/objects/lozova_palace_before_kharkivoda_gov_ua.jpg",
         "reference_url": "/items/obj_100.html#img_101"
     },
     { 
@@ -1830,8 +1830,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/lozova_palace_attack_suspilne_media_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/lozova_palace_attack_suspilne_media.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/lozova_palace_attack_suspilne_media_th.jpg",
+        "object_location": "http://localhost:4000/objects/lozova_palace_attack_suspilne_media.jpg",
         "reference_url": "/items/obj_100.html#img_102"
     },
     { 
@@ -1847,8 +1847,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/okhtyrka_railway_ui_org_ua_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/okhtyrka_railway_ui_org_ua.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/okhtyrka_railway_ui_org_ua_th.jpg",
+        "object_location": "http://localhost:4000/objects/okhtyrka_railway_ui_org_ua.jpg",
         "reference_url": "/items/obj_103.html#img_104"
     },
     { 
@@ -1864,8 +1864,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/okhtyrka_railway_railexpoua_com_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/okhtyrka_railway_railexpoua_com.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/okhtyrka_railway_railexpoua_com_th.jpg",
+        "object_location": "http://localhost:4000/objects/okhtyrka_railway_railexpoua_com.jpg",
         "reference_url": "/items/obj_103.html#img_105"
     },
     { 
@@ -1881,8 +1881,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/skovorodynivka_2011_denis_vitchenko_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/skovorodynivka_2011_denis_vitchenko.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/skovorodynivka_2011_denis_vitchenko_th.jpg",
+        "object_location": "http://localhost:4000/objects/skovorodynivka_2011_denis_vitchenko.jpg",
         "reference_url": "/items/obj_106.html#img_107"
     },
     { 
@@ -1898,8 +1898,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/skovorodynivka_chytomo_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/skovorodynivka_chytomo.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/skovorodynivka_chytomo_th.jpg",
+        "object_location": "http://localhost:4000/objects/skovorodynivka_chytomo.jpg",
         "reference_url": "/items/obj_106.html#img_108"
     },
     { 
@@ -1915,8 +1915,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/dnipro_vokzalna_shyrochyn_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/dnipro_vokzalna_shyrochyn.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/dnipro_vokzalna_shyrochyn_th.jpg",
+        "object_location": "http://localhost:4000/objects/dnipro_vokzalna_shyrochyn.jpg",
         "reference_url": "/items/obj_109.html#img_110"
     },
     { 
@@ -1932,8 +1932,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/dnipro_vokzalna_suspilne_media_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/dnipro_vokzalna_suspilne_media.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/dnipro_vokzalna_suspilne_media_th.jpg",
+        "object_location": "http://localhost:4000/objects/dnipro_vokzalna_suspilne_media.jpg",
         "reference_url": "/items/obj_109.html#img_111"
     },
     { 
@@ -1949,8 +1949,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kramatorsk_marata13_volodymyr_kotsarenko_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kramatorsk_marata13_volodymyr_kotsarenko.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kramatorsk_marata13_volodymyr_kotsarenko_th.jpg",
+        "object_location": "http://localhost:4000/objects/kramatorsk_marata13_volodymyr_kotsarenko.jpg",
         "reference_url": "/items/obj_112.html#img_113"
     },
     { 
@@ -1966,8 +1966,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kramatorsk_marata13_ilya_andreev_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kramatorsk_marata13_ilya_andreev.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kramatorsk_marata13_ilya_andreev_th.jpg",
+        "object_location": "http://localhost:4000/objects/kramatorsk_marata13_ilya_andreev.jpg",
         "reference_url": "/items/obj_112.html#img_114"
     },
     { 
@@ -1983,8 +1983,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kyiv_okhmadyt_village_com_ua_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kyiv_okhmadyt_village_com_ua.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kyiv_okhmadyt_village_com_ua_th.jpg",
+        "object_location": "http://localhost:4000/objects/kyiv_okhmadyt_village_com_ua.jpg",
         "reference_url": "/items/obj_115.html#img_116"
     },
     { 
@@ -2000,8 +2000,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/kyiv_okhmadyt_moz_gov_ua_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/kyiv_okhmadyt_moz_gov_ua.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/kyiv_okhmadyt_moz_gov_ua_th.jpg",
+        "object_location": "http://localhost:4000/objects/kyiv_okhmadyt_moz_gov_ua.jpg",
         "reference_url": "/items/obj_115.html#img_117"
     },
     { 
@@ -2017,8 +2017,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/irpin_club_shyrochyn_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/irpin_club_shyrochyn.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/irpin_club_shyrochyn_th.jpg",
+        "object_location": "http://localhost:4000/objects/irpin_club_shyrochyn.jpg",
         "reference_url": "/items/obj_118.html#img_119"
     },
     { 
@@ -2034,8 +2034,8 @@
         
         
         
-        "object_thumb": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/thumbs/irpin_club_yulia_mashuta_th.jpg",
-        "object_location": "https://ukrainian-destroyed-heritage.leibniz-gwzo.de/objects/irpin_club_yulia_mashuta.jpg",
+        "object_thumb": "http://localhost:4000/objects/thumbs/irpin_club_yulia_mashuta_th.jpg",
+        "object_location": "http://localhost:4000/objects/irpin_club_yulia_mashuta.jpg",
         "reference_url": "/items/obj_118.html#img_120"
     }
     
