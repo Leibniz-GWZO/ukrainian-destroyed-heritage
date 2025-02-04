@@ -33,48 +33,48 @@
     }
 
     #essay-banner {
-    position: relative;
-    background-color: transparent; /* Fallback color for the banner */
-    padding-top: 0em; /* Add spacing above the content */
-    padding-bottom: 0em; /* Add spacing below the content */
+        position: relative;
+        background-color: transparent;
+        padding-top: 0em;
+        padding-bottom: 0em; 
     }
 
     #essay-banner #title {
-        padding: 0.5em; /* Adds padding for spacing */
-        color: #00f; /* Title color */
-        font-size: 2.5rem; /* Base font size */
-        font-weight: 700; /* Bold font weight */
+        padding: 0.5em; 
+        color: #00f; 
+        font-size: 2.5rem;
+        font-weight: 700; 
         text-align: start; 
-        line-height: 1.2; /* Adjust line height for better readability */
+        line-height: 1.2; 
     }
 
     #essay-banner a.essay-banner-title {
-        text-decoration: none; /* Removes underline */
-        color: #00f; /* Ensures consistent color */
+        text-decoration: none; 
+        color: #00f; 
     }
 
     #essay-banner .container {
         position: relative;
-        z-index: 2; /* Ensures content is above background */
+        z-index: 2; 
     }
 
     #essay-banner .row.align-items-center {
         display: flex;
         flex-wrap: wrap;
         align-items: start;
-        justify-content: center; /* Center-aligns content horizontally */
+        justify-content: center;
     }
 
     /* Adjust title font size for smaller screens */
     @media screen and (max-width: 900px) {
         #essay-banner #title {
-            font-size: 2rem; /* Reduce font size for medium screens */
+            font-size: 2rem;
         }
     }
 
     @media screen and (max-width: 576px) {
         #essay-banner #title {
-            font-size: 1.5rem; /* Further reduce font size for small screens */
+            font-size: 1.5rem; 
         }
     }
 
@@ -82,19 +82,18 @@
         height: 400px;
         position: relative;
     }
+
     #title-box {
-        margin-top: 15em; 
-        /* margin-left: 1em;
-        margin-right: 1em;
-        position: absolute;
-        left: 0.0005em;
-        bottom: 0.0005em; */
+        margin-top: 15em;
+        margin-left: 9.5em;
     }
+
     #toc-box {
         position: absolute;
         right: 1em;
         bottom: .15em;
     }
+
     @media screen and (max-width: 900px) {
         #home-banner {        
             height: 500px;
@@ -114,10 +113,30 @@
             margin-left: auto;
         }
     }
-    /* .nav-buttons:hover {
-        color: white;
-        background: rgba(200,16,46,.10) !important;
-    } */
+
+    /* Title Styling */
+    #home-banner h1.display-2 {
+        font-weight: 400; 
+        letter-spacing: -0.5px; 
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9); 
+        line-height: 1.2;
+    }
+
+    /* Underline Styling */
+    #home-banner .title-underline {
+        display: inline-block;
+        padding-bottom: 5px;
+        border-bottom: 4px solid rgba(255, 255, 255, 0.85); 
+    }
+
+    /* Subtitle Styling */
+    #home-banner h5.site-subtitle {
+        font-weight: 400; 
+        font-size: 1.35rem; 
+        letter-spacing: 0.4px; 
+        line-height: 1.5;
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8); 
+    }
 </style>
   </head>
   <body class="d-flex flex-column h-100">
@@ -126,7 +145,7 @@
       <div id="everything" class="flex-grow-1">
     
     <div id="home-banner" class="container-fluid mt-3 mb-5">
-    <div id="title-box" class="col-md-5 py-md-3 text-white text-center site-title">
+    <div id="title-box" class="col-md-5 py-md-2 text-white text-center site-title">
         <h1 class="display-2 p-0 m-0"><span class="title-underline">Destroyed Ukrainian Heritage</span></h1>
         <h5 class="mb-0 mt-1 site-subtitle">Ukraine's Built Heritage since February 24, 2022. A Record of Destruction.</h5>
     </div>
@@ -153,18 +172,25 @@
     <main id="maincontent" role="main" class="flex-shrink-0 bg-cardinal text-white border-top border-white">
       <div class="container my-4 about-contents">
     <style>
+    .logos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 60px;
+    }
 
+    .logos a {
+        display: flex; 
+        align-items: center;
+    }
 
-/* Logos section styles */
-.logos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 60px;
-}
-.logos a img {
-    max-height: 100px;
+    .logos a img {
+        max-height: 100px;
+        vertical-align: middle;
+    }
+    .gwzo-logo {
+    margin-top: 12px; /* Moves the logo down */
 }
 
 </style>
@@ -198,11 +224,10 @@ Their typological diversity emphasizes that many ruined objects that are primari
 Our gratitude extends to the Leibniz Research Alliance <a href="https://www.leibniz-wert-der-vergangenheit.de/en/" target="_blank">»Value of the Past«</a> for generously supporting the project.</p>
 <div class="logos">
     <a href="https://www.leibniz-wert-der-vergangenheit.de/en/" target="_blank"><img src="assets/img/Leibniz-Forschungsverbund-WdV-logo-screenshot.jpg" alt="Leibniz Research Alliance »Value of the Past«" /></a>
-    <a href="https://leibniz-gwzo.de/en" target="_blank"><img src="assets/img/gwzo_en_A_r_3_rgb.jpg" alt="GWZO" /></a>
+    <a href="https://leibniz-gwzo.de/en" target="_blank"><img class="gwzo-logo" src="assets/img/gwzo_en_A_r_3_pos.png" alt="GWZO" /></a>
 </div>
 
 <p> </p>
-
 
 </div>
 

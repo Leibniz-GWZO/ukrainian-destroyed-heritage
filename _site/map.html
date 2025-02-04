@@ -36,48 +36,48 @@
     }
 
     #essay-banner {
-    position: relative;
-    background-color: transparent; /* Fallback color for the banner */
-    padding-top: 0em; /* Add spacing above the content */
-    padding-bottom: 0em; /* Add spacing below the content */
+        position: relative;
+        background-color: transparent;
+        padding-top: 0em;
+        padding-bottom: 0em; 
     }
 
     #essay-banner #title {
-        padding: 0.5em; /* Adds padding for spacing */
-        color: #00f; /* Title color */
-        font-size: 2.5rem; /* Base font size */
-        font-weight: 700; /* Bold font weight */
+        padding: 0.5em; 
+        color: #00f; 
+        font-size: 2.5rem;
+        font-weight: 700; 
         text-align: start; 
-        line-height: 1.2; /* Adjust line height for better readability */
+        line-height: 1.2; 
     }
 
     #essay-banner a.essay-banner-title {
-        text-decoration: none; /* Removes underline */
-        color: #00f; /* Ensures consistent color */
+        text-decoration: none; 
+        color: #00f; 
     }
 
     #essay-banner .container {
         position: relative;
-        z-index: 2; /* Ensures content is above background */
+        z-index: 2; 
     }
 
     #essay-banner .row.align-items-center {
         display: flex;
         flex-wrap: wrap;
         align-items: start;
-        justify-content: center; /* Center-aligns content horizontally */
+        justify-content: center;
     }
 
     /* Adjust title font size for smaller screens */
     @media screen and (max-width: 900px) {
         #essay-banner #title {
-            font-size: 2rem; /* Reduce font size for medium screens */
+            font-size: 2rem;
         }
     }
 
     @media screen and (max-width: 576px) {
         #essay-banner #title {
-            font-size: 1.5rem; /* Further reduce font size for small screens */
+            font-size: 1.5rem; 
         }
     }
 
@@ -85,19 +85,18 @@
         height: 400px;
         position: relative;
     }
+
     #title-box {
-        margin-top: 15em; 
-        /* margin-left: 1em;
-        margin-right: 1em;
-        position: absolute;
-        left: 0.0005em;
-        bottom: 0.0005em; */
+        margin-top: 15em;
+        margin-left: 9.5em;
     }
+
     #toc-box {
         position: absolute;
         right: 1em;
         bottom: .15em;
     }
+
     @media screen and (max-width: 900px) {
         #home-banner {        
             height: 500px;
@@ -117,10 +116,30 @@
             margin-left: auto;
         }
     }
-    /* .nav-buttons:hover {
-        color: white;
-        background: rgba(200,16,46,.10) !important;
-    } */
+
+    /* Title Styling */
+    #home-banner h1.display-2 {
+        font-weight: 400; 
+        letter-spacing: -0.5px; 
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9); 
+        line-height: 1.2;
+    }
+
+    /* Underline Styling */
+    #home-banner .title-underline {
+        display: inline-block;
+        padding-bottom: 5px;
+        border-bottom: 4px solid rgba(255, 255, 255, 0.85); 
+    }
+
+    /* Subtitle Styling */
+    #home-banner h5.site-subtitle {
+        font-weight: 400; 
+        font-size: 1.35rem; 
+        letter-spacing: 0.4px; 
+        line-height: 1.5;
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8); 
+    }
 </style>
   </head>
   <body class="d-flex flex-column h-100">

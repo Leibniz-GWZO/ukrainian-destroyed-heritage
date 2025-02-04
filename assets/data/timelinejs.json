@@ -32,10 +32,18 @@
               "year": "{{ dates[0] }}"{% elsif item.date_destruction contains '/' %}"year": "{{ item.date_destruction | strip | split: '/' | last }}"{% else %}
               "year": "{{ item.date_destruction }}"{% endif %}
           },
-          "text": {
-              "headline": {{ item.title | jsonify }}{% if item.caption %},
-              "text": {{ item.caption | jsonify }}{% endif %}
-          }
-      }{% unless forloop.last %},{% endunless %}{% endfor %}
-  ]
+         "text": {
+            "headline": {{ item.title | jsonify }}{% if item.location or item.caption %},
+            "text": {% if item.location and item.caption %}
+                        {{ item.location | append: ' - ' | append: item.caption | jsonify }}
+                    {% elsif item.location %}
+                        {{ item.location | jsonify }}
+                    {% elsif item.caption %}
+                        {{ item.caption | jsonify }}
+                    {% endif %}
+        {% endif %}
+        }
+    
+    }{% unless forloop.last %},{% endunless %}{% endfor %}
+    ]
 }

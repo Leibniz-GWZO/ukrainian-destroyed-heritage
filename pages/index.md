@@ -5,18 +5,25 @@ title: Home
 permalink: /
 ---
 <style>
+    .logos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 60px;
+    }
 
+    .logos a {
+        display: flex; 
+        align-items: center;
+    }
 
-/* Logos section styles */
-.logos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 60px;
-}
-.logos a img {
-    max-height: 100px;
+    .logos a img {
+        max-height: 100px;
+        vertical-align: middle;
+    }
+    .gwzo-logo {
+    margin-top: 12px; /* Moves the logo down */
 }
 
 </style>
@@ -52,8 +59,7 @@ Their typological diversity emphasizes that many ruined objects that are primari
 Our gratitude extends to the Leibniz Research Alliance <a href="https://www.leibniz-wert-der-vergangenheit.de/en/" target="_blank">»Value of the Past«</a> for generously supporting the project.</p>
 <div class="logos">
     <a href="https://www.leibniz-wert-der-vergangenheit.de/en/" target="_blank"><img src="assets/img/Leibniz-Forschungsverbund-WdV-logo-screenshot.jpg" alt="Leibniz Research Alliance »Value of the Past«"></a>
-    <a href="https://leibniz-gwzo.de/en" target="_blank"><img src="assets/img/gwzo_en_A_r_3_rgb.jpg" alt="GWZO"></a>
+    <a href="https://leibniz-gwzo.de/en" target="_blank"><img class="gwzo-logo" src="assets/img/gwzo_en_A_r_3_pos.png" alt="GWZO"></a>
 </div>
 
 &nbsp;
-
