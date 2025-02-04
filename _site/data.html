@@ -359,8 +359,7 @@
 
 <h2 id="collection-metadata">Collection Metadata</h2>
 
-<p>The table below provides sorting and basic search of the collection contents. 
-Use the “CSV” button below to download the filtered metadata you see on the page. 
+<p>Use the “CSV” button below to download the filtered metadata you see on the page. <br />
 Alternatively, click the “Download” button at the top right to view the full collection metadata in various formats.</p>
 
 
@@ -439,10 +438,12 @@ Alternatively, click the “Download” button at the top right to view the full
 
 <!-- load DataTables with jquery bundled -->
 <script type="text/javascript" language="javascript" src="/assets/lib/datatables/datatables.min.js"></script>
+
 <script>
 /* use jquery to initialize DataTables and load collection data */
 $(document).ready( function () {
     $('#item-table').DataTable( {
+        "searching": false,
         // use DataTables ajax load 
         ajax: { url: '/assets/js/metadata.min.json', dataSrc: 'objects' },
         // defer render to speed up large sets
@@ -452,7 +453,10 @@ $(document).ready( function () {
         "lengthMenu": [[ 25, 50, 100, -1], [ 25, 50, 100, "All"]],
         // add download features
         dom: 'B<"row mt-2"<"col-md-6"l><"col-md-6"f>>t<"row"<"col-md-6"i><"col-md-6"p>>', 
-        buttons: [ 'excelHtml5', 'csvHtml5' ],
+        buttons: [ 
+            { extend: 'excelHtml5', className: 'btn-outline-dark' },
+            { extend: 'csvHtml5', className: 'btn-outline-dark' }
+        ],
         // get the data from json
         columns: [ { data: '0' },{ data: '1' },{ data: '2' },{ data: '3' },{ data: '4' },{ data: '5' } ],
         columnDefs: [ 

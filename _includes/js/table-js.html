@@ -1,10 +1,12 @@
 {% assign fcount = site.data.config-table | size %}
 <!-- load DataTables with jquery bundled -->
 <script type="text/javascript" language="javascript" src="{{ '/assets/lib/datatables/datatables.min.js' | relative_url }}"></script>
+
 <script>
 /* use jquery to initialize DataTables and load collection data */
 $(document).ready( function () {
     $('#item-table').DataTable( {
+        "searching": false,
         // use DataTables ajax load 
         ajax: { url: '{{ "/assets/js/metadata.min.json" | relative_url }}', dataSrc: 'objects' },
         // defer render to speed up large sets
@@ -14,7 +16,10 @@ $(document).ready( function () {
         "lengthMenu": [[ 25, 50, 100, -1], [ 25, 50, 100, "All"]],
         // add download features
         dom: 'B<"row mt-2"<"col-md-6"l><"col-md-6"f>>t<"row"<"col-md-6"i><"col-md-6"p>>', 
-        buttons: [ 'excelHtml5', 'csvHtml5' ],
+        buttons: [ 
+            { extend: 'excelHtml5', className: 'btn-outline-dark' },
+            { extend: 'csvHtml5', className: 'btn-outline-dark' }
+        ],
         // get the data from json
         columns: [ {% for i in (0..fcount) %}{ data: '{{ i }}' }{% unless forloop.last %},{% endunless %}{% endfor %} ],
         columnDefs: [ 
