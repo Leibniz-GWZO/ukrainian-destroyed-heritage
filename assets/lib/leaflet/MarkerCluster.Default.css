@@ -65,7 +65,7 @@
     margin-top: 2.5px;
     text-align: center;
     border-radius: 15px;
-    font: 12px $base-font-family, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font: 12px 'Leipzigzwo', Helvetica, Arial, sans-serif !important;
 }
 .marker-cluster span {
     line-height: 30px;
