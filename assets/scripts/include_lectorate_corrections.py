@@ -29,7 +29,7 @@ else:
 # Reorder columns to match the desired order
 column_order = [
     'objectid', 'parentid', 'title', 'architect', 'credits', 'credits_before', 'credits_after',
-    'caption_before', 'caption_after', 'date_construction', 'date_destruction', 'description', 'subsection',
+    'caption_before', 'caption_after', 'date_construction', 'date_destruction', 'description', 'subjects',
     'location', 'latitude', 'longitude', 'source', 'identifier', 'type', 'format', 'language', 'rights',
     'rightsstatement', 'display_template', 'object_location', 'image_small', 'image_thumb', 'caption', 'notes',
     'region', 'image_alt_text', 'object_transcript'

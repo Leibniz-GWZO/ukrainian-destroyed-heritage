@@ -3,7 +3,7 @@ title,true,true
 date,true,true
 creator,true,false
 description,true,true
-subsection,true,true
+subjects,true,true
 location,true,false
 date_construction,true,true
 date_destruction,true,true

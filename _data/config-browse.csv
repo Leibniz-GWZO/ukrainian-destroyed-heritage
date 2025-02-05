@@ -1,4 +1,4 @@
 field,display_name,btn,hidden,sort_name
 region,Region,true,,Region
 location,,,true,Location
-subsection,Subsection,true,,Subsection
+subjects,Subjects,true,,subjects

@@ -10,7 +10,7 @@ caption_before,,,,DCTERMS.caption,captionBefore
 caption_after,,,,DCTERMS.caption,captionAfter
 date_construction,Date of Construction,,,DCTERMS.created,dateCreated
 date_destruction,Date of Destruction,,,DCTERMS.date,dateDestruction
-subsection,Subsection,true,,DCTERMS.subject,keywords
+subjects,Subjects,true,,DCTERMS.subject,keywords
 location,Location,,,DCTERMS.spatial,contentLocation
 region,Region,,,,region
 image_alt_text,,,,,imageAltText

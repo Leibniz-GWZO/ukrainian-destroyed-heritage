@@ -1,13 +1,13 @@
 ---
-title: Subsections
+title: Subjects
 layout: cloud
-permalink: /subsection.html
+permalink: /subjects.html
 # Default subject page is configured in "_data/theme.yml"
 # leave cloud-fields as "site.data.theme.subjects-fields"
 cloud-fields: site.data.theme.subjects-fields
 ---
 
-## Subsections Overview
+## Subjects Overview
 
-Examine the terms and subsections related to the destroyed Objects.
+Examine the terms and subjectss related to the destroyed Objects.
 Word size is determined by frequency and all words link to a corresponding collection search.

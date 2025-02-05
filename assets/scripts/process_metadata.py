@@ -13,7 +13,7 @@ df = df.rename(columns={
     'Unique identification name of the object photo (after destruction)': 'identifier_after',
     'Credits (photo after destruction)': 'credits_after',
     'Caption (photo after destruction)': 'caption_after',
-    'Subsection': 'subsection',
+    'Subsection': 'subjects',
     'Name of the object / building': 'title',
     'Place / City Ukrainian name / English name': 'location',
     'Region (in English)': 'region',
@@ -66,7 +66,7 @@ for idx, row in df.iterrows():
         'date_construction': row['date_construction'],
         'date_destruction': row['date_destruction'],
         'description': row['description'],
-        'subsection': row['subsection'],
+        'subjects': row['subjects'],
         'location': row['location'],
         'latitude': '',
         'longitude': '',
@@ -132,7 +132,7 @@ for idx, row in df.iterrows():
                 'date_construction': date_construction,
                 'date_destruction': date_destruction,
                 'description': '',
-                'subsection': '',
+                'subjects': '',
                 'location': row['location'],
                 'latitude': '',
                 'longitude': '',
@@ -165,7 +165,7 @@ df_combined = pd.DataFrame(combined_records)
 # Reorder columns to match your desired order
 column_order = [
     'objectid', 'parentid', 'title', 'architect', 'credits', 'credits_before', 'credits_after',
-    'caption_before', 'caption_after', 'date_construction', 'date_destruction', 'description', 'subsection',
+    'caption_before', 'caption_after', 'date_construction', 'date_destruction', 'description', 'subjects',
     'location', 'latitude', 'longitude', 'source', 'identifier', 'type', 'format', 'language', 'rights',
     'rightsstatement', 'display_template', 'object_location', 'image_small', 'image_thumb', 'caption', 'notes',
     'region', 'image_alt_text', 'object_transcript'
