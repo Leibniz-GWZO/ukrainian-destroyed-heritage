@@ -46,8 +46,7 @@ Their typological diversity emphasizes that many ruined objects that are primari
 
 <hr></p>
 <div class="text-end mt-1">
-    <a style="color: black"
-        href="{{ '/browse.html' | relative_url }}" 
+    <a  href="{{ '/browse.html' | relative_url }}" 
         class="btn btn-outline-dark btn-md shadow-sm px-4 py-2">
         Enter the virtual exhibition &raquo;
     </a>
