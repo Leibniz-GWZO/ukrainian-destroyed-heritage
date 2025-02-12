@@ -8,7 +8,7 @@ permalink: /imprint.html
 &nbsp;
 
 #### Curator: [Dr. Semen Shyrochyn](https://www.leibniz-gwzo.de/en/node/1152){:target="_blank"} (Kyiv)
-Dr. Semen Shyrochyn (1988) is a researcher of the history of architecture of Ukraine of socialist period. He is an author of multiple articles and books, participant of international projects, conferences and workshops, curator of exhibitions
+Dr. Semen Shyrochyn (1988) is a researcher of the history of architecture of Ukraine in the socialist period. He has authored multiple articles and books, participated in various international projects, conferences and workshops, and curated several exhibitions.
 
 &nbsp;
 
