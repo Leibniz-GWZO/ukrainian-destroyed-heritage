@@ -25,7 +25,7 @@ tagline: Ukraine's Built Heritage since February 24, 2022. A Record of Destructi
 # this description might appear in search result lists, keep around 160 characters max
 description: "Since the beginning of the full scale Russian invasion to Ukraine many cities suffer from drones, missiles and artillery strikes. It is difficult to determine the total number of ruined buildings, but the estimated count is already more than 200,000."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: ukraine;history;built;heritage;destruction;war;invasion;2022
+keywords: ukraine;history;built;heritage;destruction;war;invasion;2022;architecture;culture;loss;damage;reconstruction;missile strikes;drone attacks;urban heritage;historical sites;monuments;ruins;conflict;preservation;restoration;occupied territories;rebuilding efforts;Russian aggression;devastation;military conflict;
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: GWZO
 
@@ -64,7 +64,7 @@ organization-logo-nav: assets/img/gwzo_en_A_r_3_rgb.png
 # ROBOTS EXCLUDE
 #
 # set noindex to true if you do NOT want Google to index your site
-noindex: true 
+noindex: false 
 
 ##########
 # BUILD SETTINGS 
