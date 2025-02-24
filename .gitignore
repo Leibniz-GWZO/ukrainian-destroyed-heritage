@@ -18,5 +18,5 @@ Gemfile.lock
 # if you would like to commit your objects to github, delete the line below!
 #objects/
 openrefine-3.8.5
-#assets/scripts/
+assets/scripts/
 data_backups/
