@@ -1,0 +1,157 @@
+<!-- _includes/press_snippets.html -->
+<div class="press-snippets-container">
+  <h2 class="press-snippets-heading">Press Clippings</h2>
+  
+  {% assign sorted_articles = site.data.press_articles | sort: "date" | reverse %}
+  {% assign items_per_page = 4 %}
+  {% assign total_pages = sorted_articles.size | divided_by: items_per_page | ceil %}
+  
+  <div class="compact-press-grid">
+    {% for article in sorted_articles limit: items_per_page %}
+      <div class="compact-press-card">
+        <a href="{{ article.url }}" target="_blank" rel="noopener" class="compact-press-link">
+          <div class="compact-press-header">
+            <span class="compact-press-date">{{ article.date | date: "%b %d, %Y" }}</span>
+            {% if article.lang == 'de' %}
+              <span class="compact-lang-badge">DE</span>
+            {% endif %}
+          </div>
+          <div class="compact-press-thumbnail">
+            <img src="https://api.microlink.io/?url={{ article.url | url_encode }}&screenshot=true&meta=false&embed=screenshot.url&width=300&height=200" 
+                 alt="{{ article.thumbnail_alt }}"
+                 loading="lazy"
+                 onerror="this.src='/assets/img/default-press-thumb.jpg'">
+          </div>
+          <div class="compact-press-content">
+            <h3 class="compact-press-title">
+              {% if site.lang == 'en' and article.title_en %}
+                {{ article.title_en | truncate: 70 }}
+              {% else %}
+                {{ article.title | truncate: 70 }}
+              {% endif %}
+            </h3>
+            <div class="compact-press-source">{{ article.source }}</div>
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+  
+  {% if sorted_articles.size > items_per_page %}
+    <div class="press-snippets-footer">
+      <a href="/media-responses" class="view-all-link">View all press coverage →</a>
+    </div>
+  {% endif %}
+</div>
+
+<style>
+.press-snippets-container {
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.press-snippets-heading {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  color: #333;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+.compact-press-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.2rem;
+}
+
+.compact-press-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.compact-press-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.compact-press-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6rem 0.8rem 0;
+  font-size: 0.8rem;
+}
+
+.compact-press-date {
+  color: #666;
+}
+
+.compact-lang-badge {
+  background: #f0f0f0;
+  color: #555;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  font-size: 0.7rem;
+}
+
+.compact-press-thumbnail {
+  height: 120px;
+  overflow: hidden;
+}
+
+.compact-press-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.compact-press-content {
+  padding: 0.8rem;
+}
+
+.compact-press-title {
+  margin: 0 0 0.4rem;
+  font-size: 0.95rem;
+  line-height: 1.3;
+  color: #555;
+
+}
+
+.compact-press-source {
+  font-size: 0.8rem;
+  color: #666;
+  font-weight: 500;
+}
+
+.press-snippets-footer {
+  text-align: right;
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.view-all-link {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .compact-press-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .compact-press-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>

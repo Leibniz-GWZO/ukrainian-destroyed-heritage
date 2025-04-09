@@ -1,0 +1,134 @@
+<!-- _includes/press_snippets.html -->
+<div class="press-sidebar">
+    <div class="press-snippets-container">
+      <h2 class="press-snippets-heading">Media Response</h2>
+      
+      {% assign sorted_articles = site.data.press_articles | sort: "date" | reverse %}
+      {% assign items_per_page = 3 %} <!-- Reduced for sidebar -->
+      
+      <div class="compact-press-grid">
+        {% for article in sorted_articles limit: items_per_page %}
+          <div class="compact-press-card">
+            <a href="{{ article.url }}" target="_blank" rel="noopener" class="compact-press-link">
+              <div class="compact-press-header">
+                <span class="compact-press-source">{{ article.source }}</span>
+                {% if article.lang == 'de' %}
+                  <span class="compact-lang-badge">DE</span>
+                {% endif %}
+              </div>
+              <h3 class="compact-press-title">
+                {% if site.lang == 'en' and article.title_en %}
+                  {{ article.title_en | truncate: 60 }}
+                {% else %}
+                  {{ article.title | truncate: 60 }}
+                {% endif %}
+              </h3>
+              <div class="compact-press-date">{{ article.date | date: "%b %d" }}</div>
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+      
+      <div class="press-snippets-footer">
+        <a href="/press" class="view-all-link">View all →</a>
+      </div>
+    </div>
+  </div>
+  
+  <style>
+  /* Sidebar container */
+  .press-sidebar {
+    width: 300px;
+    float: right;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+  }
+  
+  /* Adjusted compact styles */
+  .press-snippets-container {
+    background: white;
+    border-radius: 8px;
+    padding: 1.25rem;
+    margin: 0;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    border: 1px solid #eee;
+  }
+  
+  .press-snippets-heading {
+    font-size: 1.2rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .compact-press-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .compact-press-card {
+    padding: 0.8rem;
+    border-radius: 6px;
+    background: #fafafa;
+    transition: all 0.2s ease;
+  }
+  
+  .compact-press-card:hover {
+    background: #f5f5f5;
+  }
+  
+  .compact-press-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.3rem;
+  }
+  
+  .compact-press-source {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #555;
+  }
+  
+  .compact-press-title {
+    font-size: 0.85rem;
+    margin: 0.2rem 0;
+    line-height: 1.3;
+    color: #555;
+
+  }
+  
+  .compact-press-date {
+    font-size: 0.7rem;
+    color: #888;
+  }
+  
+  .compact-lang-badge {
+    font-size: 0.65rem;
+    background: #f0f0f0;
+    padding: 0.15rem 0.4rem;
+    border-radius: 3px;
+  }
+  
+  .press-snippets-footer {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .view-all-link {
+    font-size: 0.8rem;
+    color: #0066cc;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .press-sidebar {
+      width: 100%;
+      float: none;
+      margin-left: 0;
+      margin-bottom: 2rem;
+    }
+  }
+  </style>

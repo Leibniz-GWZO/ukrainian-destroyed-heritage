@@ -1,0 +1,36 @@
+<!-- _includes/press_articles.html -->
+{% assign sorted_articles = site.data.press_articles | sort: "date" | reverse %}
+<div class="press-grid">
+  {% for article in sorted_articles %}
+    <article class="press-card" lang="{{ article.lang }}">
+      <a href="{{ article.url }}" target="_blank" rel="noopener noreferrer" class="press-link">
+        <div class="press-thumbnail">
+          <!-- Dynamic thumbnail using linkpreview or similar service -->
+          <img src="https://api.microlink.io/?url={{ article.url | url_encode }}&screenshot=true&meta=false&embed=screenshot.url" 
+               alt="{{ article.thumbnail_alt }}"
+               loading="lazy"
+               onerror="this.src='/assets/img/favicon-32x32.png'">
+        </div>
+        <div class="press-content">
+          <h3 class="press-title">
+            {% if site.lang == 'en' and article.title_en %}
+              {{ article.title_en }}
+            {% else %}
+              {{ article.title }}
+            {% endif %}
+            {% if article.lang == 'de' %}
+              <span class="lang-badge" title="German content">DE</span>
+            {% endif %}
+          </h3>
+          <div class="press-meta">
+            <span class="press-source">{{ article.source }}</span>
+            <span class="press-date">{{ article.date | date: "%b %d, %Y" }}</span>
+            {% if article.author != 'ohne Autor*in' %}
+              <span class="press-author">by {{ article.author }}</span>
+            {% endif %}
+          </div>
+        </div>
+      </a>
+    </article>
+  {% endfor %}
+</div>
