@@ -32,7 +32,7 @@ The processing takes place in accordance with Art. 6 Section 1 lit. f DSGVO on t
 
 **Use of Plausible Analytics**
 
-This website uses Plausible Analytics, a privacy-friendly web analytics service that does not use cookies and does not store any personal data.Plausible collects anonymised data about the use of this website, such as page views, referrers, browsers and devices used, as well as geographical origin at country level.This data is used exclusively for the purpose of analysing and optimising this website.Processing is carried out in accordance with the data protection provisions of the GDPR.No personal data is passed on to third parties or used for marketing purposes.Further information on the handling of user data can be found in the privacy policy of Plausible Analytics: [privacy](plausible.io/privacy) and [data policy](plausible.io/data-policy).
+This website uses Plausible Analytics, a privacy-friendly web analytics service that does not use cookies and does not store any personal data.Plausible collects anonymised data about the use of this website, such as page views, referrers, browsers and devices used, as well as geographical origin at country level.This data is used exclusively for the purpose of analysing and optimising this website.Processing is carried out in accordance with the data protection provisions of the GDPR.No personal data is passed on to third parties or used for marketing purposes.Further information on the handling of user data can be found in the privacy policy of Plausible Analytics: [privacy](https://plausible.io/privacy) and [data policy](https://plausible.io/data-policy).
 
 ## 3. Cookies
 
