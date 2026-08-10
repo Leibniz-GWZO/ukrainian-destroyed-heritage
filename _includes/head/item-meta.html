@@ -22,8 +22,13 @@
     "@context": "http://schema.org",
     "@type": "CreativeWork",
     {%- assign sc-fields = site.data.config-metadata | where_exp: 'item', 'item.schema_map != nil' -%}
-    {% for f in sc-fields %}{% if page[f.field] %}
-    "{{ f.schema_map }}": {{ page[f.field] | jsonify }},{% endif %}{% endfor %}
+    {% for f in sc-fields %}{% unless f.field == 'credits_before' or f.field == 'credits_after' %}{% if page[f.field] %}
+    "{{ f.schema_map }}": {{ page[f.field] | jsonify }},{% endif %}{% endunless %}{% endfor %}
+    {%- if page.credits_before and page.credits_after and page.credits_before != page.credits_after -%}
+    "rightsHolder": [{{ page.credits_before | jsonify }}, {{ page.credits_after | jsonify }}],
+    {%- elsif page.credits_before or page.credits_after -%}
+    "rightsHolder": {{ page.credits_before | default: page.credits_after | jsonify }},
+    {%- endif -%}
     "isPartOf": {{ site.title | jsonify }},
     {% if page.image_small %}"image": "{{ page.image_small | relative_url }}",{% endif %}
     {% if page.image_thumb %}"thumbnailUrl": "{{ page.image_thumb | relative_url }}",{% endif %}
