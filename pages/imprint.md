@@ -14,10 +14,10 @@ Dr. Semen Shyrochyn (1988) is a researcher of the history of architecture of Ukr
 
 ### Editorial work and Implementation
 **Exhibition Concept:**  
- [Dr. Semen Shyrochyn](https://www.leibniz-gwzo.de/en/node/1152){:target="_blank"} (Kyiv) / Prof. Dr. Arnold Bartetzky [(GWZO)](https://leibniz-gwzo.de/en/institute/team-z/arnold-bartetzky){:target="_blank"} / Dr. Susanne Jaeger [(GWZO)](https://leibniz-gwzo.de/en/institute/team-z/susanne-jaeger){:target="_blank"} / Jonathan Sandkühler [(GWZO)](https://leibniz-gwzo.de/en/institute/team-z/jonathan-sandkuehler){:target="_blank"}
+ [Dr. Semen Shyrochyn](https://www.leibniz-gwzo.de/en/node/1152){:target="_blank"} (Kyiv) / Prof. Dr. Arnold Bartetzky [(GWZO)](https://leibniz-gwzo.de/en/institute/team-z/arnold-bartetzky){:target="_blank"} / Dr. Susanne Jaeger [(GWZO)](https://leibniz-gwzo.de/en/institute/team-z/susanne-jaeger){:target="_blank"} / Jonathan Sandkühler [(GWZO)](https://leibniz-gwzo.de/en/institute/team-z/jonathan-sandkuhler){:target="_blank"}
 **Texts:** [Dr. Semen Shyrochyn](https://www.leibniz-gwzo.de/en/node/1152){:target="_blank"} (Kyiv)
 **Photography:** Dr. Semen Shyrochyn (Kyiv) and others, see credits and copyright section provided with every exhibits object.
-**Website:** Jonathan Sandkühler [(GWZO)](https://leibniz-gwzo.de/en/institute/team-z/jonathan-sandkuehler){:target="_blank"}
+**Website:** Jonathan Sandkühler [(GWZO)](https://leibniz-gwzo.de/en/institute/team-z/jonathan-sandkuhler){:target="_blank"}
 **Built with** [CollectionBuilder](https://collectionbuilder.github.io/){:target="_blank"}
 
 ### Acknowledgment
