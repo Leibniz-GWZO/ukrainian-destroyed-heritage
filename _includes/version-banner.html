@@ -1,0 +1,31 @@
+<div id="version-banner" class="version-banner bg-dark" role="note">
+  <div class="container d-flex justify-content-center align-items-center flex-wrap text-center">
+    <span class="version-banner-text">
+      An expanded edition of this exhibition — <em>Ukraine's Built Heritage under Attack</em> — is now live.
+    </span>
+    <a href="https://ukraines-heritage-attacked.leibniz-gwzo.de/" target="_blank" rel="noopener" class="version-banner-link">
+      View here &raquo;
+    </a>
+    <button type="button" id="version-banner-close" class="version-banner-close" aria-label="Dismiss notice">&times;</button>
+  </div>
+</div>
+<script>
+(function () {
+  var KEY = 'duhVersionBannerDismissed';
+  var banner = document.getElementById('version-banner');
+  if (!banner) return;
+  try {
+    if (localStorage.getItem(KEY) === '1') {
+      banner.style.display = 'none';
+      return;
+    }
+  } catch (e) {}
+  var closeBtn = document.getElementById('version-banner-close');
+  if (closeBtn) {
+    closeBtn.addEventListener('click', function () {
+      banner.style.display = 'none';
+      try { localStorage.setItem(KEY, '1'); } catch (e) {}
+    });
+  }
+})();
+</script>

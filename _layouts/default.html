@@ -5,6 +5,9 @@
   </head>
   <body class="d-flex flex-column h-100">
     <div id="skip-to-content"><a href="#maincontent">Skip to main content</a></div>
+    {% unless page.layout == 'landing-page' %}
+      {% include version-banner.html %}
+    {% endunless %}
     {% if page.layout == 'landing-page' %}
       <div id="everything" class="flex-grow-1">
     {% endif %}

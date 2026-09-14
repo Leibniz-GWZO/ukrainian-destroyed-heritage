@@ -80,6 +80,7 @@ permalink: /
 
 <div class="content-container">
   <article class="main-content">
+    {% include version-banner.html %}
     <p class="text-black" id="Introduction">Since the beginning of the full-scale Russian invasion of Ukraine, many cities have been attacked with drones, missiles, and artillery strikes. This has brought death and endless suffering to people and destruction of vital infrastructure. At the same time, Ukraine's cultural heritage has been affected by immense losses.</p>
 
     <p class="text-black">This exhibition attempts to convey an idea of the extent of the destruction and the range of buildings involved. It intentionally focuses on a sober record of destruction. The immeasurable suffering of the people affected is not depicted. It is a matter of the viewers' imagination.</p>

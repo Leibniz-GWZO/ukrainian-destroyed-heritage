@@ -6,6 +6,65 @@
     color: #00f !important; /* Use !important if necessary to override other styles */
   }
 
+// Sitewide notice banner linking to the new edition of the exhibition
+.version-banner {
+    color: #fff;
+    padding: 0.55em 2.5em;
+    font-size: 0.9rem;
+    font-family: inherit;
+    position: relative;
+}
+
+.version-banner * {
+    font-family: inherit;
+}
+
+.version-banner .container {
+    gap: 0.75em;
+}
+
+.version-banner-text em {
+    font-style: normal;
+    font-weight: 700;
+}
+
+.version-banner-link {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
+.version-banner-link:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.version-banner-close {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1;
+    padding: 0 0.25em;
+    position: absolute;
+    right: 0.75em;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+    .version-banner {
+        font-size: 0.8rem;
+    }
+    .version-banner-close {
+        position: static;
+        transform: none;
+        margin-left: 0.5em;
+    }
+}
+
 
 // Custom SCSS for the Home Banner and Essay Banner
 #everything {
